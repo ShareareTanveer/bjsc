@@ -7,7 +7,7 @@ const navItems = [
   { to: "/practice", label: "Practice", icon: BookOpen },
   { to: "/history", label: "History", icon: History },
   { to: "/bookmarks", label: "Bookmarks", icon: Bookmark },
-  { to: "/guide", label: "Study Guide", icon: FileText },
+  { to: "/guide", label: "Guide", icon: FileText },
 ];
 
 export default function Navbar({ theme, toggleTheme }) {
