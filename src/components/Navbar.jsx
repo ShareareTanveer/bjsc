@@ -19,7 +19,7 @@ export default function Navbar({ theme, toggleTheme }) {
           <div className="w-7 h-7 rounded-lg bg-brand-600 flex items-center justify-center">
             <BookOpen size={15} className="text-white" />
           </div>
-          <span className="text-sm">BJSC Prep</span>
+          <span className="text-sm">BJSC</span>
         </NavLink>
 
         <nav className="flex items-center gap-1 flex-1">

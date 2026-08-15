@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ChevronDown, ChevronUp, BookOpen, Scale, GraduationCap, Globe, Calculator, FileText } from "lucide-react";
+import { ChevronDown, ChevronUp, BookOpen, Scale, GraduationCap, Globe, Calculator, FileText, TimerIcon } from "lucide-react";
 import { Badge } from "../components/UI";
 
 function Section({ title, icon: Icon, badge, children, defaultOpen = false }) {
@@ -597,7 +597,7 @@ export default function Guide() {
             ]} />
           </Section>
 
-          <Section title="Priority tiering for time allocation" icon={TrendingUp}>
+          <Section title="Priority tiering for time allocation" icon={TimerIcon}>
             <SubHead>Tier 1 — Master completely (highest marks per hour)</SubHead>
             <TopicList items={[
               "Constitution of Bangladesh — single biggest scoring block",

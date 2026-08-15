@@ -108,4 +108,10 @@ export const EXAM_FILES = [
   { file: "9th-bjsc-preli.json",  label: "9th BJS",  year: 2014 },
   { file: "10th-bjsc-preli.json", label: "10th BJS", year: 2015 },
   { file: "11th-bjsc-preli.json", label: "11th BJS", year: 2016 },
+  { file: "12th-bjsc-preli.json", label: "12th BJS", year: 2017 },
+  { file: "13th-bjsc-preli.json", label: "13th BJS", year: 2018 },
+  { file: "14th-bjsc-preli.json", label: "14th BJS", year: 2019 },
+  { file: "15th-bjsc-preli.json", label: "15th BJS", year: 2020 },
+  { file: "16th-bjsc-preli.json", label: "16th BJS", year: 2021 },
+  { file: "17th-bjsc-preli.json", label: "17th BJS", year: 2022 },
 ];
