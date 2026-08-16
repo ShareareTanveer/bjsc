@@ -81,7 +81,7 @@ export default function Guide() {
   ];
 
   return (
-    <div className="max-w-2xl mx-auto px-4 py-8">
+    <div className="max-w-6xl mx-auto px-4 py-8">
       <div className="mb-6">
         <div className="flex items-center gap-2 mb-2">
           <div className="w-8 h-8 rounded-xl bg-brand-600 flex items-center justify-center">

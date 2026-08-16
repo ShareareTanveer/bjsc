@@ -1,14 +1,40 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { BookOpen, Zap, BarChart2, Clock, TrendingUp, ChevronRight } from "lucide-react";
-import { Card, Badge, Button } from "../components/UI";
+import { Card, Badge } from "../components/UI";
 import { getHistory } from "../utils/storage";
-import { EXAM_FILES } from "../utils/quizEngine";
+import { 
+  loadFullQuestionBank, 
+  getExamInfoFromData,
+  getTotalQuestions
+} from "../utils/quizEngine";
 
 export default function Home() {
   const navigate = useNavigate();
   const history = getHistory();
   const recent = history.slice(0, 3);
+
+  const [examFiles, setExamFiles] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [totalQuestions, setTotalQuestions] = useState(0);
+
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        const data = await loadFullQuestionBank();
+        if (data && Array.isArray(data)) {
+          const exams = getExamInfoFromData(data);
+          setExamFiles(exams);
+          setTotalQuestions(getTotalQuestions(data));
+        }
+      } catch (e) {
+        console.error("Failed to load exam data:", e);
+      } finally {
+        setLoading(false);
+      }
+    };
+    loadData();
+  }, []);
 
   const totalAttempted = history.length;
   const avgScore = totalAttempted
@@ -17,7 +43,7 @@ export default function Home() {
   const totalQAnswered = history.reduce((a, b) => a + (b.total || 0), 0);
 
   return (
-    <div className="max-w-2xl mx-auto px-4 py-8">
+    <div className="max-w-6xl mx-auto px-4 py-8">
       {/* Header */}
       <div className="mb-8">
         <div className="flex items-center gap-2 mb-2">
@@ -30,7 +56,7 @@ export default function Home() {
           Bangladesh Judicial Service
         </h1>
         <p className="text-gray-500 dark:text-gray-400 text-sm">
-          Practice with past exam papers. {EXAM_FILES.length} exams available.
+          Practice with past exam papers. {examFiles.length} exams • {totalQuestions} questions available.
         </p>
       </div>
 
@@ -80,36 +106,46 @@ export default function Home() {
       <div className="mb-6">
         <div className="flex items-center justify-between mb-3">
           <h2 className="text-sm font-medium text-gray-700 dark:text-gray-300">Available Exams</h2>
-          <span className="text-xs text-gray-400">{EXAM_FILES.length} papers</span>
+          <span className="text-xs text-gray-400">{examFiles.length} papers</span>
         </div>
         <Card>
-          {EXAM_FILES.map((exam, i) => {
-            const attempt = history.find((h) => h.examFile === exam.file);
-            return (
-              <button
-                key={exam.file}
-                onClick={() => navigate(`/practice?exam=${exam.file}`)}
-                className={`w-full flex items-center gap-3 px-4 py-3 text-left hover:bg-gray-50 dark:hover:bg-gray-800/60 transition-colors ${
-                  i !== EXAM_FILES.length - 1 ? "border-b border-gray-100 dark:border-gray-800" : ""
-                }`}
-              >
-                <div className="w-9 h-9 rounded-lg bg-gray-100 dark:bg-gray-800 flex items-center justify-center shrink-0">
-                  <span className="text-xs font-mono font-medium text-gray-600 dark:text-gray-300">
-                    {exam.label.replace("th BJS", "").replace("rd BJS", "").replace("st BJS", "").replace("nd BJS", "")}
-                  </span>
-                </div>
-                <div className="flex-1 min-w-0">
-                  <p className="text-sm font-medium text-gray-900 dark:text-gray-100">{exam.label} Preliminary</p>
-                  <p className="text-xs text-gray-500 dark:text-gray-400">Year {exam.year} · 100 questions</p>
-                </div>
-                {attempt ? (
-                  <Badge variant={attempt.pct >= 50 ? "green" : "red"}>{attempt.pct}%</Badge>
-                ) : (
-                  <ChevronRight size={16} className="text-gray-400 dark:text-gray-600 shrink-0" />
-                )}
-              </button>
-            );
-          })}
+          {loading ? (
+            <div className="py-8 text-center text-gray-500 dark:text-gray-400">
+              Loading exams...
+            </div>
+          ) : examFiles.length === 0 ? (
+            <div className="py-8 text-center text-gray-500 dark:text-gray-400">
+              No exams available
+            </div>
+          ) : (
+            examFiles.map((exam, i) => {
+              const attempt = history.find((h) => h.examFile === exam.file);
+              return (
+                <button
+                  key={exam.file}
+                  onClick={() => navigate(`/practice?exam=${exam.file}`)}
+                  className={`w-full flex items-center gap-3 px-4 py-3 text-left hover:bg-gray-50 dark:hover:bg-gray-800/60 transition-colors ${
+                    i !== examFiles.length - 1 ? "border-b border-gray-100 dark:border-gray-800" : ""
+                  }`}
+                >
+                  <div className="w-9 h-9 rounded-lg bg-gray-100 dark:bg-gray-800 flex items-center justify-center shrink-0">
+                    <span className="text-xs font-mono font-medium text-gray-600 dark:text-gray-300">
+                      {exam.label.replace(/th BJS|rd BJS|st BJS|nd BJS/g, "").trim()}
+                    </span>
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-medium text-gray-900 dark:text-gray-100">{exam.label} Preliminary</p>
+                    <p className="text-xs text-gray-500 dark:text-gray-400">Year {exam.year} · {exam.questions.length} questions</p>
+                  </div>
+                  {attempt ? (
+                    <Badge variant={attempt.pct >= 50 ? "green" : "red"}>{attempt.pct}%</Badge>
+                  ) : (
+                    <ChevronRight size={16} className="text-gray-400 dark:text-gray-600 shrink-0" />
+                  )}
+                </button>
+              );
+            })
+          )}
         </Card>
       </div>
 

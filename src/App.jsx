@@ -9,6 +9,7 @@ import Result from "./pages/Result";
 import History from "./pages/History";
 import Bookmarks from "./pages/Bookmarks";
 import Guide from "./pages/Guide";
+import Analytics from "./pages/Analytics";
 
 export default function App() {
   const { theme, toggle } = useTheme();
@@ -26,6 +27,7 @@ export default function App() {
             <Route path="/history" element={<History />} />
             <Route path="/bookmarks" element={<Bookmarks />} />
             <Route path="/guide" element={<Guide />} />
+            <Route path="/analytics" element={<Analytics />} />
           </Routes>
         </main>
       </div>

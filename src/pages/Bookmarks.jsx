@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { BookmarkCheck, ChevronDown, ChevronUp, Trash2 } from "lucide-react";
 import { Card, Button, EmptyState, Badge } from "../components/UI";
 import { getBookmarks, toggleBookmark } from "../utils/storage";
-import { loadExamData } from "../utils/quizEngine";
+import { loadFullQuestionBank, getExamLabel } from "../utils/quizEngine";
 
 const OPTION_KEYS = ["a", "b", "c", "d"];
 
@@ -21,31 +21,50 @@ export default function Bookmarks() {
   const [expanded, setExpanded] = useState(null);
 
   useEffect(() => {
-    const bm = getBookmarks();
-    setBookmarks(bm);
+    const loadBookmarks = async () => {
+      const bm = getBookmarks();
+      setBookmarks(bm);
 
-    // Group by exam file
-    const groups = {};
-    bm.forEach(({ examFile }) => {
-      if (!groups[examFile]) groups[examFile] = true;
-    });
+      if (bm.length === 0) {
+        setLoading(false);
+        return;
+      }
 
-    // Load each exam file
-    Promise.all(
-      Object.keys(groups).map((file) =>
-        loadExamData(file).then((data) => ({ file, data }))
-      )
-    ).then((results) => {
-      const qMap = {};
-      results.forEach(({ file, data }) => {
-        if (!data) return;
-        data.questions.forEach((q) => {
-          qMap[`${file}::${q.id}`] = { ...q, _examFile: file, _examLabel: data.exam };
+      try {
+        // Load the full question bank once
+        const data = await loadFullQuestionBank();
+        if (!data || !Array.isArray(data)) {
+          setLoading(false);
+          return;
+        }
+
+        // Build a map of all questions with their exam info
+        const qMap = {};
+        data.forEach((examData) => {
+          const examKey = `${examData.exam}-${examData.year}`;
+          const examLabel = getExamLabel(data, examKey);
+          
+          if (examData.questions) {
+            examData.questions.forEach((q) => {
+              // Add to map with the key format expected from bookmarks
+              qMap[`${examKey}::${q.id}`] = {
+                ...q,
+                _examFile: examKey,
+                _examLabel: examLabel
+              };
+            });
+          }
         });
-      });
-      setQuestions(qMap);
-      setLoading(false);
-    });
+
+        setQuestions(qMap);
+      } catch (error) {
+        console.error("Error loading bookmarks:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadBookmarks();
   }, []);
 
   const handleRemove = (bm) => {
@@ -55,7 +74,7 @@ export default function Bookmarks() {
 
   if (loading) {
     return (
-      <div className="max-w-2xl mx-auto px-4 py-8">
+      <div className="max-w-6xl mx-auto px-4 py-8">
         <p className="text-sm text-gray-500 dark:text-gray-400">Loading bookmarks...</p>
       </div>
     );
@@ -63,7 +82,7 @@ export default function Bookmarks() {
 
   if (bookmarks.length === 0) {
     return (
-      <div className="max-w-2xl mx-auto px-4 py-8">
+      <div className="max-w-6xl mx-auto px-4 py-8">
         <EmptyState
           icon={BookmarkCheck}
           title="No bookmarks yet"
@@ -74,7 +93,7 @@ export default function Bookmarks() {
   }
 
   return (
-    <div className="max-w-2xl mx-auto px-4 py-8">
+    <div className="max-w-6xl mx-auto px-4 py-8">
       <div className="flex items-center justify-between mb-6">
         <div>
           <h1 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-0.5">Bookmarks</h1>

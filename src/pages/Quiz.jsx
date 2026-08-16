@@ -29,14 +29,19 @@ export default function Quiz() {
     const raw = sessionStorage.getItem("bjsc-session");
     if (!raw) { navigate("/practice"); return; }
     const sess = JSON.parse(raw);
+    
+    // Build the session with the questions from the full question bank
     const built = buildSession(sess.questions, sess.count, sess.randomOrder, sess.negativeMarking);
     setSession({ ...sess, ...built });
     setQuestions(built.questions);
 
-    // Init bookmark state
+    // Init bookmark state - use the exam key from the question
     const bm = {};
     built.questions.forEach((q) => {
-      bm[q.id + q._examFile] = isBookmarked(q.id, q._examFile);
+      // Use _examKey if available, otherwise fallback to _examFile
+      const examKey = q._examKey || q._examFile || 'unknown';
+      const key = `${q.id}_${examKey}`;
+      bm[key] = isBookmarked(q.id, examKey);
     });
     setBookmarks(bm);
 
@@ -76,8 +81,10 @@ export default function Quiz() {
   };
 
   const handleBookmark = () => {
-    const key = q.id + q._examFile;
-    const isNowBm = toggleBookmark(q.id, q._examFile);
+    // Use _examKey if available, otherwise fallback to _examFile
+    const examKey = q._examKey || q._examFile || 'unknown';
+    const key = `${q.id}_${examKey}`;
+    const isNowBm = toggleBookmark(q.id, examKey);
     setBookmarks((prev) => ({ ...prev, [key]: isNowBm }));
   };
 
@@ -129,10 +136,21 @@ export default function Quiz() {
     return q.options?.[key] || "";
   };
 
-  const bmKey = q.id + q._examFile;
+  // Get the bookmark key for the current question
+  const getBookmarkKey = () => {
+    const examKey = q._examKey || q._examFile || 'unknown';
+    return `${q.id}_${examKey}`;
+  };
+
+  // Get display label for the exam
+  const getExamLabel = () => {
+    return q._examLabel || q._examFile || "Unknown Exam";
+  };
+
+  const bmKey = getBookmarkKey();
 
   return (
-    <div className="max-w-2xl mx-auto px-4 py-4 pb-32 md:pb-8">
+    <div className="max-w-6xl mx-auto px-4 py-4 pb-32 md:pb-8">
       {/* Top bar */}
       <div className="flex items-center justify-between mb-4 gap-3">
         <div className="flex items-center gap-2">
@@ -211,9 +229,9 @@ export default function Quiz() {
       )}
 
       {/* Source badge */}
-      {q._examLabel && (
+      {getExamLabel() && (
         <div className="flex items-center gap-2 mb-3">
-          <Badge variant="gray">{q._examLabel}</Badge>
+          <Badge variant="gray">{getExamLabel()}</Badge>
           {flagged.has(q.id) && <Badge variant="amber">Flagged</Badge>}
           {session.negativeMarking && (
             <Badge variant="red">

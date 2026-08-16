@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Sun, Moon, BookOpen, LayoutDashboard, History, Bookmark, FileText } from "lucide-react";
+import { Sun, Moon, BookOpen, LayoutDashboard, History, Bookmark, FileText, BrainIcon } from "lucide-react";
 
 const navItems = [
   { to: "/", label: "Home", icon: LayoutDashboard, exact: true },
@@ -8,6 +8,7 @@ const navItems = [
   { to: "/history", label: "History", icon: History },
   { to: "/bookmarks", label: "Bookmarks", icon: Bookmark },
   { to: "/guide", label: "Guide", icon: FileText },
+  { to: "/analytics", label: "Analytics", icon: BrainIcon },
 ];
 
 export default function Navbar({ theme, toggleTheme }) {
@@ -15,6 +16,7 @@ export default function Navbar({ theme, toggleTheme }) {
     <>
       {/* Desktop top bar */}
       <header className="hidden md:flex fixed top-0 inset-x-0 z-40 h-14 bg-white/90 dark:bg-gray-900/90 backdrop-blur border-b border-gray-200 dark:border-gray-800 items-center px-6 gap-6">
+        {/* Logo - left side */}
         <NavLink to="/" className="flex items-center gap-2 font-semibold text-gray-900 dark:text-gray-100 shrink-0">
           <div className="w-7 h-7 rounded-lg bg-brand-600 flex items-center justify-center">
             <BookOpen size={15} className="text-white" />
@@ -22,7 +24,8 @@ export default function Navbar({ theme, toggleTheme }) {
           <span className="text-sm">BJSC</span>
         </NavLink>
 
-        <nav className="flex items-center gap-1 flex-1">
+        {/* Navigation - centered */}
+        <nav className="flex items-center justify-center gap-1 flex-1">
           {navItems.map(({ to, label, icon: Icon, exact }) => (
             <NavLink
               key={to}
@@ -42,9 +45,10 @@ export default function Navbar({ theme, toggleTheme }) {
           ))}
         </nav>
 
+        {/* Theme toggle - right side */}
         <button
           onClick={toggleTheme}
-          className="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+          className="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors shrink-0"
           aria-label="Toggle theme"
         >
           {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}

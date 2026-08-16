@@ -80,38 +80,138 @@ export function formatTime(secs) {
 }
 
 /**
- * Load JSON from the /data folder.
+ * Load the full question bank from the /data folder.
  * Returns the parsed object or null on error.
  */
-export async function loadExamData(filename) {
+export async function loadFullQuestionBank() {
   try {
-    const res = await fetch(`${process.env.PUBLIC_URL}/data/${filename}`);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    return await res.json();
+    const response = await fetch('/data/full-question-bank.json');
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    return data;
   } catch (e) {
-    console.error("Failed to load", filename, e);
+    console.error("Failed to load full question bank", e);
     return null;
   }
 }
 
 /**
- * Known exam files — update this list to match your data/ folder.
- * Each entry: { file, label, year }
+ * Get exam info from the question bank data
+ * Extracts unique exam names/years from the data
  */
-export const EXAM_FILES = [
-  { file: "3rd-bjsc-preli.json",  label: "3rd BJS",  year: 2008 },
-  { file: "4th-bjsc-preli.json",  label: "4th BJS",  year: 2009 },
-  { file: "5th-bjsc-preli.json",  label: "5th BJS",  year: 2010 },
-  { file: "6th-bjsc-preli.json",  label: "6th BJS",  year: 2011 },
-  { file: "7th-bjsc-preli.json",  label: "7th BJS",  year: 2012 },
-  { file: "8th-bjsc-preli.json",  label: "8th BJS",  year: 2013 },
-  { file: "9th-bjsc-preli.json",  label: "9th BJS",  year: 2014 },
-  { file: "10th-bjsc-preli.json", label: "10th BJS", year: 2015 },
-  { file: "11th-bjsc-preli.json", label: "11th BJS", year: 2016 },
-  { file: "12th-bjsc-preli.json", label: "12th BJS", year: 2017 },
-  { file: "13th-bjsc-preli.json", label: "13th BJS", year: 2018 },
-  { file: "14th-bjsc-preli.json", label: "14th BJS", year: 2019 },
-  { file: "15th-bjsc-preli.json", label: "15th BJS", year: 2020 },
-  { file: "16th-bjsc-preli.json", label: "16th BJS", year: 2021 },
-  { file: "17th-bjsc-preli.json", label: "17th BJS", year: 2022 },
-];
+export function getExamInfoFromData(data) {
+  if (!data || !Array.isArray(data)) return [];
+  
+  // Create a map of unique exams
+  const examMap = new Map();
+  data.forEach((examData) => {
+    if (examData.exam && examData.year) {
+      // Create a key from exam and year
+      const key = `${examData.exam}-${examData.year}`;
+      if (!examMap.has(key)) {
+        // Parse label to get short form (e.g., "3rd BJS" from "3rd BJS (Bangladesh Judicial Service) Preliminary Examination")
+        let label = examData.exam;
+        // Extract the short form like "3rd BJS"
+        const shortMatch = examData.exam.match(/^(\d+(?:st|nd|rd|th)) BJS/);
+        if (shortMatch) {
+          label = shortMatch[1] + " BJS";
+        }
+        examMap.set(key, {
+          file: key, // Using key as identifier
+          label: label,
+          year: examData.year,
+          fullExam: examData.exam,
+          questions: examData.questions || []
+        });
+      }
+    }
+  });
+  
+  // Sort by year
+  return Array.from(examMap.values()).sort((a, b) => a.year - b.year);
+}
+
+/**
+ * Get questions for a specific exam
+ */
+export function getQuestionsForExam(data, examKey) {
+  if (!data || !Array.isArray(data)) return [];
+  
+  // Find the exam data that matches
+  const examData = data.find((exam) => {
+    const key = `${exam.exam}-${exam.year}`;
+    return key === examKey;
+  });
+  
+  return examData ? examData.questions : [];
+}
+
+/**
+ * Get questions for multiple exams with exam info attached
+ */
+export function getQuestionsForExams(data, examKeys) {
+  if (!data || !Array.isArray(data) || !examKeys || examKeys.length === 0) return [];
+  
+  let allQuestions = [];
+  examKeys.forEach((examKey) => {
+    const examData = data.find((exam) => {
+      const key = `${exam.exam}-${exam.year}`;
+      return key === examKey;
+    });
+    
+    if (examData && examData.questions) {
+      // Add exam info to each question
+      const label = getExamLabel(data, examKey);
+      examData.questions.forEach((q) => {
+        allQuestions.push({
+          ...q,
+          _examKey: examKey,
+          _examLabel: label,
+          _year: examData.year
+        });
+      });
+    }
+  });
+  
+  return allQuestions;
+}
+
+/**
+ * Get exam label from exam key
+ */
+export function getExamLabel(data, examKey) {
+  if (!data || !Array.isArray(data)) return examKey;
+  
+  const examData = data.find((exam) => {
+    const key = `${exam.exam}-${exam.year}`;
+    return key === examKey;
+  });
+  
+  if (!examData) return examKey;
+  
+  // Extract short label
+  const shortMatch = examData.exam.match(/^(\d+(?:st|nd|rd|th)) BJS/);
+  return shortMatch ? shortMatch[1] + " BJS" : examData.exam;
+}
+
+/**
+ * Get all available exam keys
+ */
+export function getExamKeys(data) {
+  if (!data || !Array.isArray(data)) return [];
+  return data.map((exam) => `${exam.exam}-${exam.year}`);
+}
+
+/**
+ * Get total number of questions across all exams
+ */
+export function getTotalQuestions(data) {
+  if (!data || !Array.isArray(data)) return 0;
+  let total = 0;
+  data.forEach((exam) => {
+    if (exam.questions) {
+      total += exam.questions.length;
+    }
+  });
+  return total;
+}

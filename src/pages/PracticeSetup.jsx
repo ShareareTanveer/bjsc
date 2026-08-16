@@ -1,8 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
-import { Zap, BookOpen, Shuffle, List, AlertTriangle, CheckSquare } from "lucide-react";
+import { Zap, BookOpen, Shuffle, AlertTriangle } from "lucide-react";
 import { Card, Button, Badge, Spinner } from "../components/UI";
-import { EXAM_FILES, loadExamData } from "../utils/quizEngine";
+import { 
+  loadFullQuestionBank, 
+  getExamInfoFromData, 
+  getQuestionsForExams,
+  getExamLabel,
+  getTotalQuestions
+} from "../utils/quizEngine";
 
 const QUESTION_COUNTS = [10, 25, 50, 75, 100];
 
@@ -19,6 +25,47 @@ export default function PracticeSetup() {
   const [negativeMarking, setNegativeMarking] = useState(true);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+  
+  // State for question bank data
+  const [examData, setExamData] = useState(null);
+  const [examFiles, setExamFiles] = useState([]);
+  const [loadingData, setLoadingData] = useState(true);
+  const [totalQuestions, setTotalQuestions] = useState(0);
+
+  // Load the full question bank on mount
+  useEffect(() => {
+    const loadData = async () => {
+      setLoadingData(true);
+      try {
+        const data = await loadFullQuestionBank();
+        if (data && Array.isArray(data)) {
+          setExamData(data);
+          const exams = getExamInfoFromData(data);
+          setExamFiles(exams);
+          setTotalQuestions(getTotalQuestions(data));
+          
+          // If exam param exists in URL, validate it
+          const examParam = params.get("exam");
+          if (examParam) {
+            const validExam = exams.find(e => e.file === examParam);
+            if (validExam) {
+              setSelectedExams([examParam]);
+            } else {
+              setSelectedExams([]);
+            }
+          }
+        } else {
+          setError("Could not load question bank. Please check the data file.");
+        }
+      } catch (e) {
+        console.error("Error loading data:", e);
+        setError("Failed to load question bank: " + e.message);
+      } finally {
+        setLoadingData(false);
+      }
+    };
+    loadData();
+  }, [params]);
 
   const toggleExam = (file) => {
     if (mode === "random") {
@@ -33,53 +80,67 @@ export default function PracticeSetup() {
   const canStart = mode === "random" ? selectedExams.length > 0 : selectedExams.length === 1;
 
   const handleStart = async () => {
+    if (!examData) {
+      setError("Question bank not loaded. Please refresh the page.");
+      return;
+    }
+
     setLoading(true);
     setError(null);
     try {
-      // Load all selected exam files
-      const loaded = await Promise.all(selectedExams.map(loadExamData));
-      const failed = loaded.some((d) => !d);
-      if (failed) {
-        setError("Could not load one or more exam files. Make sure the JSON files are in the public/data/ folder.");
+      // Get questions for selected exams
+      let allQuestions = getQuestionsForExams(examData, selectedExams);
+      
+      if (!allQuestions || allQuestions.length === 0) {
+        setError("No questions found for the selected exam(s).");
         setLoading(false);
         return;
       }
 
-      // Gather questions
-      let allQuestions = [];
-      loaded.forEach((data, idx) => {
-        const examFile = selectedExams[idx];
-        const exam = EXAM_FILES.find((e) => e.file === examFile);
-        data.questions.forEach((q) => {
-          allQuestions.push({ ...q, _examFile: examFile, _examLabel: exam?.label || examFile });
-        });
-      });
+      // Calculate max questions available
+      const maxQuestions = allQuestions.length;
+      const questionCount = Math.min(count, maxQuestions);
 
       // Store session in sessionStorage
       const session = {
         questions: allQuestions,
-        count: Math.min(count, allQuestions.length),
+        count: questionCount,
         randomOrder,
         negativeMarking,
         mode,
         label: mode === "random"
           ? `Random (${selectedExams.length} exam${selectedExams.length > 1 ? "s" : ""})`
-          : EXAM_FILES.find((e) => e.file === selectedExams[0])?.label + " Preliminary",
+          : getExamLabel(examData, selectedExams[0]) + " Preliminary",
         examFile: mode === "exam" ? selectedExams[0] : null,
+        totalAvailable: maxQuestions,
       };
       sessionStorage.setItem("bjsc-session", JSON.stringify(session));
       navigate("/quiz");
     } catch (e) {
+      console.error("Error starting session:", e);
       setError("Unexpected error. Please try again.");
       setLoading(false);
     }
   };
 
+  if (loadingData) {
+    return (
+      <div className="max-w-6xl mx-auto px-4 py-8 flex items-center justify-center min-h-[400px]">
+        <div className="text-center">
+          <Spinner size={32} />
+          <p className="mt-4 text-gray-500 dark:text-gray-400">Loading question bank...</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <div className="max-w-2xl mx-auto px-4 py-8">
+    <div className="max-w-6xl mx-auto px-4 py-8">
       <div className="mb-6">
         <h1 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-1">Start a session</h1>
-        <p className="text-sm text-gray-500 dark:text-gray-400">Configure your practice session below.</p>
+        <p className="text-sm text-gray-500 dark:text-gray-400">
+          Configure your practice session below. {totalQuestions} questions available.
+        </p>
       </div>
 
       {/* Mode selector */}
@@ -114,42 +175,58 @@ export default function PracticeSetup() {
         </label>
         {mode === "random" && (
           <div className="flex gap-2 mb-2">
-            <button onClick={() => setSelectedExams(EXAM_FILES.map(e => e.file))} className="text-xs text-brand-600 dark:text-brand-400 hover:underline">Select all</button>
+            <button 
+              onClick={() => setSelectedExams(examFiles.map(e => e.file))} 
+              className="text-xs text-brand-600 dark:text-brand-400 hover:underline"
+            >
+              Select all
+            </button>
             <span className="text-xs text-gray-300 dark:text-gray-600">·</span>
-            <button onClick={() => setSelectedExams([])} className="text-xs text-gray-500 dark:text-gray-400 hover:underline">Clear</button>
+            <button 
+              onClick={() => setSelectedExams([])} 
+              className="text-xs text-gray-500 dark:text-gray-400 hover:underline"
+            >
+              Clear
+            </button>
           </div>
         )}
         <Card>
-          {EXAM_FILES.map((exam, i) => {
-            const active = selectedExams.includes(exam.file);
-            return (
-              <button
-                key={exam.file}
-                onClick={() => toggleExam(exam.file)}
-                className={`w-full flex items-center gap-3 px-4 py-3 text-left transition-colors ${
-                  i !== EXAM_FILES.length - 1 ? "border-b border-gray-100 dark:border-gray-800" : ""
-                } ${active ? "bg-brand-50 dark:bg-brand-900/20" : "hover:bg-gray-50 dark:hover:bg-gray-800/40"}`}
-              >
-                <div className={`w-5 h-5 rounded border-2 flex items-center justify-center shrink-0 transition-colors ${
-                  active
-                    ? "border-brand-600 bg-brand-600"
-                    : "border-gray-300 dark:border-gray-600"
-                }`}>
-                  {active && (
-                    <svg width="10" height="8" viewBox="0 0 10 8" fill="none">
-                      <path d="M1 4L3.5 6.5L9 1" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                  )}
-                </div>
-                <div className="flex-1 min-w-0">
-                  <p className={`text-sm font-medium ${active ? "text-brand-700 dark:text-brand-300" : "text-gray-900 dark:text-gray-100"}`}>
-                    {exam.label} Preliminary
-                  </p>
-                  <p className="text-xs text-gray-500 dark:text-gray-400">Year {exam.year} · 100 questions</p>
-                </div>
-              </button>
-            );
-          })}
+          {examFiles.length === 0 ? (
+            <div className="py-8 text-center text-gray-500 dark:text-gray-400">
+              No exams available
+            </div>
+          ) : (
+            examFiles.map((exam, i) => {
+              const active = selectedExams.includes(exam.file);
+              return (
+                <button
+                  key={exam.file}
+                  onClick={() => toggleExam(exam.file)}
+                  className={`w-full flex items-center gap-3 px-4 py-3 text-left transition-colors ${
+                    i !== examFiles.length - 1 ? "border-b border-gray-100 dark:border-gray-800" : ""
+                  } ${active ? "bg-brand-50 dark:bg-brand-900/20" : "hover:bg-gray-50 dark:hover:bg-gray-800/40"}`}
+                >
+                  <div className={`w-5 h-5 rounded border-2 flex items-center justify-center shrink-0 transition-colors ${
+                    active
+                      ? "border-brand-600 bg-brand-600"
+                      : "border-gray-300 dark:border-gray-600"
+                  }`}>
+                    {active && (
+                      <svg width="10" height="8" viewBox="0 0 10 8" fill="none">
+                        <path d="M1 4L3.5 6.5L9 1" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
+                    )}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className={`text-sm font-medium ${active ? "text-brand-700 dark:text-brand-300" : "text-gray-900 dark:text-gray-100"}`}>
+                      {exam.label} Preliminary
+                    </p>
+                    <p className="text-xs text-gray-500 dark:text-gray-400">Year {exam.year} · {exam.questions.length} questions</p>
+                  </div>
+                </button>
+              );
+            })
+          )}
         </Card>
       </div>
 
@@ -175,13 +252,21 @@ export default function PracticeSetup() {
           <input
             type="number"
             min={1}
-            max={900}
+            max={totalQuestions}
             value={count}
-            onChange={(e) => setCount(Number(e.target.value))}
+            onChange={(e) => {
+              const val = Number(e.target.value);
+              if (val > 0 && val <= totalQuestions) {
+                setCount(val);
+              }
+            }}
             className="w-20 px-3 py-2 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-brand-500"
             placeholder="Custom"
           />
         </div>
+        <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+          Max: {totalQuestions} questions available
+        </p>
       </div>
 
       {/* Options */}

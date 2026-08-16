@@ -41,7 +41,7 @@ export default function Result() {
   const barColor = pct >= 70 ? "bg-emerald-500" : pct >= 50 ? "bg-brand-500" : "bg-red-500";
 
   return (
-    <div className="max-w-2xl mx-auto px-4 py-8">
+    <div className="max-w-6xl mx-auto px-4 py-8">
       {/* Score card */}
       <Card className="p-6 mb-6 text-center">
         <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">{label}</p>
@@ -135,7 +135,9 @@ export default function Result() {
                   {isSkipped && <MinusCircle size={18} className="text-gray-300 dark:text-gray-600" />}
                 </div>
                 <div className="flex-1 min-w-0">
-                  <p className="text-xs text-gray-400 dark:text-gray-500 mb-0.5">Q{q.id} · {q._examLabel}</p>
+                  <p className="text-xs text-gray-400 dark:text-gray-500 mb-0.5">
+                    Q{q.id} · {q._examLabel || q.exam || "Unknown Exam"}
+                  </p>
                   <p className="text-sm text-gray-800 dark:text-gray-200 leading-relaxed prose-bidi line-clamp-2">{q.question}</p>
                 </div>
                 <div className="shrink-0 ml-1">

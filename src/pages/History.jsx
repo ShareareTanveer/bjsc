@@ -20,7 +20,7 @@ export default function History() {
 
   if (history.length === 0) {
     return (
-      <div className="max-w-2xl mx-auto px-4 py-8">
+      <div className="max-w-6xl mx-auto px-4 py-8">
         <EmptyState
           icon={BarChart2}
           title="No attempts yet"
@@ -31,7 +31,7 @@ export default function History() {
   }
 
   return (
-    <div className="max-w-2xl mx-auto px-4 py-8">
+    <div className="max-w-6xl mx-auto px-4 py-8">
       <div className="flex items-center justify-between mb-6">
         <div>
           <h1 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-0.5">Session history</h1>
@@ -57,37 +57,49 @@ export default function History() {
       </div>
 
       <div className="space-y-2">
-        {history.map((h, i) => (
-          <Card key={i} className="p-4">
-            <div className="flex items-start gap-3">
-              <div className={`w-12 h-12 rounded-xl flex items-center justify-center text-sm font-semibold shrink-0 ${
-                h.pct >= 70 ? "bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300"
-                : h.pct >= 50 ? "bg-brand-100 dark:bg-brand-900/30 text-brand-700 dark:text-brand-300"
-                : "bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400"
-              }`}>
-                {h.pct}%
-              </div>
-              <div className="flex-1 min-w-0">
-                <p className="text-sm font-medium text-gray-900 dark:text-gray-100 mb-1">{h.label}</p>
-                <div className="flex flex-wrap gap-2">
-                  <span className="flex items-center gap-1 text-xs text-emerald-600 dark:text-emerald-400">
-                    <CheckCircle2 size={12} /> {h.correct} correct
-                  </span>
-                  <span className="flex items-center gap-1 text-xs text-red-500 dark:text-red-400">
-                    <XCircle size={12} /> {h.wrong} wrong
-                  </span>
-                  <span className="flex items-center gap-1 text-xs text-gray-400 dark:text-gray-500">
-                    <Clock size={12} /> {h.duration ? formatTime(h.duration) : "—"}
-                  </span>
-                  {h.negativeMarking && <Badge variant="red" className="text-[10px]">-0.25</Badge>}
+        {history.map((h, i) => {
+          // Format label to show short exam name if needed
+          let displayLabel = h.label;
+          if (h.examFile && h.label.includes("Preliminary")) {
+            // Try to extract just the exam name
+            const match = h.label.match(/^(.+?)\s+Preliminary/);
+            if (match) {
+              displayLabel = match[1] + " Preliminary";
+            }
+          }
+          
+          return (
+            <Card key={i} className="p-4">
+              <div className="flex items-start gap-3">
+                <div className={`w-12 h-12 rounded-xl flex items-center justify-center text-sm font-semibold shrink-0 ${
+                  h.pct >= 70 ? "bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300"
+                  : h.pct >= 50 ? "bg-brand-100 dark:bg-brand-900/30 text-brand-700 dark:text-brand-300"
+                  : "bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400"
+                }`}>
+                  {h.pct}%
                 </div>
+                <div className="flex-1 min-w-0">
+                  <p className="text-sm font-medium text-gray-900 dark:text-gray-100 mb-1">{displayLabel}</p>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="flex items-center gap-1 text-xs text-emerald-600 dark:text-emerald-400">
+                      <CheckCircle2 size={12} /> {h.correct} correct
+                    </span>
+                    <span className="flex items-center gap-1 text-xs text-red-500 dark:text-red-400">
+                      <XCircle size={12} /> {h.wrong} wrong
+                    </span>
+                    <span className="flex items-center gap-1 text-xs text-gray-400 dark:text-gray-500">
+                      <Clock size={12} /> {h.duration ? formatTime(h.duration) : "—"}
+                    </span>
+                    {h.negativeMarking && <Badge variant="red" className="text-[10px]">-0.25</Badge>}
+                  </div>
+                </div>
+                <p className="text-xs text-gray-400 dark:text-gray-500 shrink-0">
+                  {new Date(h.savedAt).toLocaleDateString("en-GB", { day: "numeric", month: "short" })}
+                </p>
               </div>
-              <p className="text-xs text-gray-400 dark:text-gray-500 shrink-0">
-                {new Date(h.savedAt).toLocaleDateString("en-GB", { day: "numeric", month: "short" })}
-              </p>
-            </div>
-          </Card>
-        ))}
+            </Card>
+          );
+        })}
       </div>
     </div>
   );
