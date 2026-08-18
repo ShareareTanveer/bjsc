@@ -11,6 +11,7 @@ import Bookmarks from "./pages/Bookmarks";
 import Guide from "./pages/Guide";
 import Analytics from "./pages/Analytics";
 import CPC from "./pages/Cpc";
+import Limitations from "./pages/Limitations";
 
 export default function App() {
   const { theme, toggle } = useTheme();
@@ -30,6 +31,7 @@ export default function App() {
             <Route path="/guide" element={<Guide />} />
             <Route path="/analytics" element={<Analytics />} />
             <Route path="/cpc" element={<CPC />} />
+            <Route path="/limitations" element={<Limitations />} />
           </Routes>
         </main>
       </div>
