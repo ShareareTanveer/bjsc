@@ -7,7 +7,6 @@ const navItems = [
   { to: "/practice", label: "Practice", icon: BookOpen },
   { to: "/history", label: "History", icon: History },
   { to: "/bookmarks", label: "Bookmarks", icon: Bookmark },
-  { to: "/guide", label: "Guide", icon: FileText },
   { to: "/analytics", label: "Analytics", icon: BrainIcon },
 ];
 

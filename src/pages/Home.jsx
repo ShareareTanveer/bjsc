@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { BookOpen, Zap, BarChart2, Clock, TrendingUp, ChevronRight } from "lucide-react";
+import { BookOpen, Zap, BarChart2, Clock, TrendingUp, ChevronRight, FileText, Scale, BookMarked } from "lucide-react";
 import { Card, Badge } from "../components/UI";
 import { getHistory } from "../utils/storage";
 import { 
@@ -83,6 +83,32 @@ export default function Home() {
           <p className="font-medium text-gray-900 dark:text-gray-100 text-sm mb-0.5">Choose Exam</p>
           <p className="text-xs text-gray-500 dark:text-gray-400">By year or exam number</p>
         </Card>
+        
+      </div>
+
+      {/* Guide & CPC Cards */}
+      <div className="grid grid-cols-2 gap-3 mb-6">
+        <Card
+          className="p-4 cursor-pointer hover:border-brand-400 dark:hover:border-brand-500 transition-all group"
+          onClick={() => navigate("/guide")}
+        >
+          <div className="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center mb-3 group-hover:bg-blue-200 dark:group-hover:bg-blue-800/40 transition-colors">
+            <FileText size={20} className="text-blue-600 dark:text-blue-400" />
+          </div>
+          <p className="font-medium text-gray-900 dark:text-gray-100 text-sm mb-0.5">Study Guide</p>
+          <p className="text-xs text-gray-500 dark:text-gray-400">Exam strategy & preparation tips</p>
+        </Card>
+
+        <Card
+          className="p-4 cursor-pointer hover:border-brand-400 dark:hover:border-brand-500 transition-all group"
+          onClick={() => navigate("/cpc")}
+        >
+          <div className="w-10 h-10 rounded-xl bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center mb-3 group-hover:bg-purple-200 dark:group-hover:bg-purple-800/40 transition-colors">
+            <Scale size={20} className="text-purple-600 dark:text-purple-400" />
+          </div>
+          <p className="font-medium text-gray-900 dark:text-gray-100 text-sm mb-0.5">CPC Reference</p>
+          <p className="text-xs text-gray-500 dark:text-gray-400">Code of Civil Procedure</p>
+        </Card>
       </div>
 
       {/* Stats row */}
@@ -101,53 +127,6 @@ export default function Home() {
           ))}
         </div>
       )}
-
-      {/* Exam list */}
-      <div className="mb-6">
-        <div className="flex items-center justify-between mb-3">
-          <h2 className="text-sm font-medium text-gray-700 dark:text-gray-300">Available Exams</h2>
-          <span className="text-xs text-gray-400">{examFiles.length} papers</span>
-        </div>
-        <Card>
-          {loading ? (
-            <div className="py-8 text-center text-gray-500 dark:text-gray-400">
-              Loading exams...
-            </div>
-          ) : examFiles.length === 0 ? (
-            <div className="py-8 text-center text-gray-500 dark:text-gray-400">
-              No exams available
-            </div>
-          ) : (
-            examFiles.map((exam, i) => {
-              const attempt = history.find((h) => h.examFile === exam.file);
-              return (
-                <button
-                  key={exam.file}
-                  onClick={() => navigate(`/practice?exam=${exam.file}`)}
-                  className={`w-full flex items-center gap-3 px-4 py-3 text-left hover:bg-gray-50 dark:hover:bg-gray-800/60 transition-colors ${
-                    i !== examFiles.length - 1 ? "border-b border-gray-100 dark:border-gray-800" : ""
-                  }`}
-                >
-                  <div className="w-9 h-9 rounded-lg bg-gray-100 dark:bg-gray-800 flex items-center justify-center shrink-0">
-                    <span className="text-xs font-mono font-medium text-gray-600 dark:text-gray-300">
-                      {exam.label.replace(/th BJS|rd BJS|st BJS|nd BJS/g, "").trim()}
-                    </span>
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 dark:text-gray-100">{exam.label} Preliminary</p>
-                    <p className="text-xs text-gray-500 dark:text-gray-400">Year {exam.year} · {exam.questions.length} questions</p>
-                  </div>
-                  {attempt ? (
-                    <Badge variant={attempt.pct >= 50 ? "green" : "red"}>{attempt.pct}%</Badge>
-                  ) : (
-                    <ChevronRight size={16} className="text-gray-400 dark:text-gray-600 shrink-0" />
-                  )}
-                </button>
-              );
-            })
-          )}
-        </Card>
-      </div>
 
       {/* Recent attempts */}
       {recent.length > 0 && (

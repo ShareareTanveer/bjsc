@@ -15,6 +15,7 @@ import {
   AlertTriangle,
   Flame,
   Snowflake,
+  Search,
 } from "lucide-react";
 import { Card, Badge } from "../components/UI";
 
@@ -343,10 +344,15 @@ export default function Analytics() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [subjectFilter, setSubjectFilter] = useState("Law"); // default to Law since it's the biggest, most actionable bucket
+  const [subjectFilter, setSubjectFilter] = useState("Law");
   const [expandedAct, setExpandedAct] = useState(null);
-  const [sortMode, setSortMode] = useState("count"); // "count" | "coverage"
+  const [sortMode, setSortMode] = useState("count");
   const [showAllRecs, setShowAllRecs] = useState(false);
+  
+  // New state for exam filtering
+  const [selectedExams, setSelectedExams] = useState([]);
+  const [examSearchTerm, setExamSearchTerm] = useState("");
+  const [showExamDropdown, setShowExamDropdown] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -365,8 +371,21 @@ export default function Analytics() {
     };
   }, []);
 
-  const rows = useMemo(() => (data ? flattenQuestions(data) : []), [data]);
-  const totalExams = data ? data.length : 0;
+  // Get unique exam names from data
+  const examOptions = useMemo(() => {
+    if (!data) return [];
+    return data.map(exam => exam.exam);
+  }, [data]);
+
+  // Filter data by selected exams
+  const filteredData = useMemo(() => {
+    if (!data) return [];
+    if (selectedExams.length === 0) return data;
+    return data.filter(exam => selectedExams.includes(exam.exam));
+  }, [data, selectedExams]);
+
+  const rows = useMemo(() => (filteredData ? flattenQuestions(filteredData) : []), [filteredData]);
+  const totalExams = filteredData.length;
   const totalQuestions = rows.length;
 
   const yearOrder = useMemo(
@@ -416,8 +435,6 @@ export default function Analytics() {
     return map;
   }, [rows]);
 
-  // Trend analysis (early half of exams vs recent half), scoped to the
-  // currently selected subject so "momentum" reflects what you're looking at
   const actTrends = useMemo(
     () => (yearOrder.length >= 4 ? computeTrends(filteredRows, (r) => r.act, yearOrder) : []),
     [filteredRows, yearOrder]
@@ -466,6 +483,26 @@ export default function Analytics() {
   const subjectList = ["All", ...subjectStats.map((s) => s.key)];
   const visibleRecs = showAllRecs ? recommendations : recommendations.slice(0, 6);
 
+  // Filter exam options based on search
+  const filteredExamOptions = useMemo(() => {
+    if (!examSearchTerm) return examOptions;
+    return examOptions.filter(exam => 
+      exam.toLowerCase().includes(examSearchTerm.toLowerCase())
+    );
+  }, [examOptions, examSearchTerm]);
+
+  const toggleExam = (exam) => {
+    setSelectedExams(prev => 
+      prev.includes(exam) 
+        ? prev.filter(e => e !== exam)
+        : [...prev, exam]
+    );
+  };
+
+  const selectAllExams = () => {
+    setSelectedExams([]);
+  };
+
   if (loading) {
     return (
       <div className="max-w-2xl mx-auto px-4 py-16 text-center text-gray-500 dark:text-gray-400">
@@ -500,10 +537,105 @@ export default function Analytics() {
         </p>
       </div>
 
+      {/* Exam Filter */}
+      <Card className="p-4 mb-6">
+        <div className="flex items-center justify-between mb-3">
+          <SectionHeader 
+            title="Filter by Exams" 
+            subtitle={`${selectedExams.length} of ${examOptions.length} exams selected`}
+          />
+          {selectedExams.length > 0 && (
+            <button
+              onClick={selectAllExams}
+              className="text-xs text-brand-600 dark:text-brand-400 hover:underline"
+            >
+              Clear all
+            </button>
+          )}
+        </div>
+        
+        <div className="relative">
+          <div 
+            className="flex items-center gap-2 p-2 border border-gray-200 dark:border-gray-700 rounded-lg cursor-pointer hover:border-brand-400 transition-colors"
+            onClick={() => setShowExamDropdown(!showExamDropdown)}
+          >
+            <Search size={16} className="text-gray-400" />
+            <span className="text-sm text-gray-600 dark:text-gray-300 flex-1">
+              {selectedExams.length === 0 
+                ? "Select exams to filter..." 
+                : `${selectedExams.length} exam${selectedExams.length > 1 ? 's' : ''} selected`}
+            </span>
+            {selectedExams.length > 0 && (
+              <span className="text-xs bg-brand-100 dark:bg-brand-900/30 text-brand-700 dark:text-brand-300 px-2 py-0.5 rounded-full">
+                {selectedExams.length}
+              </span>
+            )}
+            {showExamDropdown ? <ChevronUp size={16} className="text-gray-400" /> : <ChevronDown size={16} className="text-gray-400" />}
+          </div>
+
+          {showExamDropdown && (
+            <div className="absolute z-10 mt-1 w-full bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg shadow-lg max-h-64 overflow-y-auto">
+              <div className="p-2 border-b border-gray-200 dark:border-gray-700 sticky top-0 bg-white dark:bg-gray-900">
+                <input
+                  type="text"
+                  placeholder="Search exams..."
+                  value={examSearchTerm}
+                  onChange={(e) => setExamSearchTerm(e.target.value)}
+                  className="w-full px-3 py-1.5 text-sm border border-gray-200 dark:border-gray-700 rounded-md bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-brand-500"
+                  onClick={(e) => e.stopPropagation()}
+                />
+              </div>
+              <div className="p-1">
+                <button
+                  onClick={() => {
+                    setSelectedExams([]);
+                    setShowExamDropdown(false);
+                  }}
+                  className="w-full text-left px-3 py-1.5 text-sm text-brand-600 dark:text-brand-400 hover:bg-brand-50 dark:hover:bg-brand-900/20 rounded-md"
+                >
+                  Show all exams
+                </button>
+                {filteredExamOptions.map((exam) => (
+                  <button
+                    key={exam}
+                    onClick={() => toggleExam(exam)}
+                    className="w-full text-left px-3 py-1.5 text-sm hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md flex items-center justify-between"
+                  >
+                    <span className="text-gray-700 dark:text-gray-300">{exam}</span>
+                    {selectedExams.includes(exam) && (
+                      <span className="text-brand-600 dark:text-brand-400">✓</span>
+                    )}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+
+        {selectedExams.length > 0 && (
+          <div className="flex flex-wrap gap-1.5 mt-3">
+            {selectedExams.map((exam) => (
+              <span
+                key={exam}
+                className="inline-flex items-center gap-1 text-xs bg-brand-100 dark:bg-brand-900/30 text-brand-700 dark:text-brand-300 px-2 py-0.5 rounded-full"
+              >
+                {exam}
+                <button
+                  onClick={() => toggleExam(exam)}
+                  className="hover:text-brand-900 dark:hover:text-brand-100"
+                >
+                  ×
+                </button>
+              </span>
+            ))}
+          </div>
+        )}
+      </Card>
+
       {/* Overview stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
         <StatCard icon={BookOpen} label="Total questions" value={totalQuestions} />
-        <StatCard icon={Layers} label="Exams covered" value={totalExams} sub={`${yearOrder[0]}–${yearOrder[yearOrder.length - 1]}`} />
+        <StatCard icon={Layers} label="Exams covered" value={totalExams} sub={`${yearOrder[0] || 'N/A'}–${yearOrder[yearOrder.length - 1] || 'N/A'}`} />
         <StatCard
           icon={Scale}
           label="Distinct acts referenced"
@@ -512,8 +644,8 @@ export default function Analytics() {
         <StatCard
           icon={TrendingUp}
           label="Top subject"
-          value={subjectStats[0]?.key}
-          sub={`${subjectStats[0]?.count} questions`}
+          value={subjectStats[0]?.key || 'N/A'}
+          sub={`${subjectStats[0]?.count || 0} questions`}
         />
       </div>
 
@@ -718,9 +850,9 @@ export default function Analytics() {
         <Card className="p-4 mb-6">
           <SectionHeader
             title="Momentum"
-            subtitle={`Comparing exams ${yearOrder[0]}–${yearOrder[Math.ceil(yearOrder.length / 2) - 1]} vs ${
-              yearOrder[Math.ceil(yearOrder.length / 2)]
-            }–${yearOrder[yearOrder.length - 1]}`}
+            subtitle={`Comparing exams ${yearOrder[0] || 'N/A'}–${yearOrder[Math.ceil(yearOrder.length / 2) - 1] || 'N/A'} vs ${
+              yearOrder[Math.ceil(yearOrder.length / 2)] || 'N/A'
+            }–${yearOrder[yearOrder.length - 1] || 'N/A'}`}
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-16">
             <div>
