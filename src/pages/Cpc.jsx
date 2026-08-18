@@ -17,6 +17,7 @@ import {
   Award,
   Loader2,
   ArrowLeft,
+  XCircle
 } from "lucide-react";
 import { Card, Badge } from "../components/UI";
 
