@@ -12,6 +12,7 @@ import Guide from "./pages/Guide";
 import Analytics from "./pages/Analytics";
 import CPC from "./pages/Cpc";
 import Limitations from "./pages/Limitations";
+import SR from "./pages/Sr";
 
 export default function App() {
   const { theme, toggle } = useTheme();
@@ -32,6 +33,7 @@ export default function App() {
             <Route path="/analytics" element={<Analytics />} />
             <Route path="/cpc" element={<CPC />} />
             <Route path="/limitations" element={<Limitations />} />
+            <Route path="/sr" element={<SR />} />
           </Routes>
         </main>
       </div>

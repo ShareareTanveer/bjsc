@@ -119,6 +119,16 @@ export default function Home() {
           <p className="font-medium text-gray-900 dark:text-gray-100 text-sm mb-0.5">Limitations</p>
           <p className="text-xs text-gray-500 dark:text-gray-400">Procedural Law</p>
         </Card>
+         <Card
+          className="p-4 cursor-pointer hover:border-brand-400 dark:hover:border-brand-500 transition-all group"
+          onClick={() => navigate("/sr")}
+        >
+          <div className="w-10 h-10 rounded-xl bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center mb-3 group-hover:bg-purple-200 dark:group-hover:bg-purple-800/40 transition-colors">
+            <Scale size={20} className="text-purple-600 dark:text-purple-400" />
+          </div>
+          <p className="font-medium text-gray-900 dark:text-gray-100 text-sm mb-0.5">Specific Relief</p>
+          <p className="text-xs text-gray-500 dark:text-gray-400">Substantive Law</p>
+        </Card>
       </div>
 
       {/* Stats row */}

@@ -1,12 +1,12 @@
-// pages/CPC.js
+// pages/SR.js
 import React from "react";
 import MCQLibrary from "../components/MCQLibrary";
 import { Scale } from "lucide-react";
 
-export default function CPC() {
+export default function SR() {
   return (
     <MCQLibrary
-      dataPath="/data/cpc/questions.json"
+      dataPath="/data/sr/questions.json"
       title="Code of Civil Procedure, 1908"
       badgeText="CPC Reference"
       icon={Scale}

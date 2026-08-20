@@ -1,0 +1,3906 @@
+{
+  "title": "The Specific Relief Act, 1877 (Bangladesh) - BJSC MCQ Bank - Batch 1",
+  "note": "This is Batch 1 of 3, containing 100 MCQs out of a planned 300-question BJSC-oriented bank. Questions are based on the Specific Relief Act, 1877 as applicable in Bangladesh, including important amendments. Section 21A was inserted by the Specific Relief (Amendment) Act, 2004 with effect from 1 July 2005. The questions emphasize statutory provisions, section numbers, exceptions, illustrations, and commonly testable distinctions. Cross-check the latest Bangladesh Code/bare Act before the examination.",
+  "mcqs": [
+    {
+      "id": 1,
+      "topic": "Preliminary - S.1",
+      "question": "The Specific Relief Act, 1877 is:",
+      "options": [
+        "Act No. I of 1877",
+        "Act No. II of 1877",
+        "Act No. IX of 1877",
+        "Act No. XII of 1877"
+      ],
+      "answer": "Act No. I of 1877",
+      "reference": "Specific Relief Act, 1877, S.1"
+    },
+    {
+      "id": 2,
+      "topic": "Preliminary - S.1",
+      "question": "The Specific Relief Act, 1877 extends to:",
+      "options": [
+        "The whole of Bangladesh",
+        "Only the territorial areas of Dhaka and Chattogram",
+        "Only civil courts in Bangladesh",
+        "Only immovable property situated in Bangladesh"
+      ],
+      "answer": "The whole of Bangladesh",
+      "reference": "Specific Relief Act, 1877, S.1"
+    },
+    {
+      "id": 3,
+      "topic": "Preliminary - S.1",
+      "question": "The Specific Relief Act, 1877 came into force on:",
+      "options": [
+        "1 May 1877",
+        "7 February 1877",
+        "1 January 1877",
+        "15 August 1877"
+      ],
+      "answer": "1 May 1877",
+      "reference": "Specific Relief Act, 1877, S.1"
+    },
+    {
+      "id": 4,
+      "topic": "Preliminary - S.2",
+      "question": "Section 2 of the Specific Relief Act, 1877 is:",
+      "options": [
+        "Repealed",
+        "The interpretation clause",
+        "The provision relating to injunctions",
+        "The provision relating to specific performance"
+      ],
+      "answer": "Repealed",
+      "reference": "Specific Relief Act, 1877, S.2"
+    },
+    {
+      "id": 5,
+      "topic": "Definitions - S.3",
+      "question": "Under section 3, 'obligation' includes:",
+      "options": [
+        "Every duty enforceable by law",
+        "Only contractual duties",
+        "Only duties arising from trusts",
+        "Only duties imposed by statute"
+      ],
+      "answer": "Every duty enforceable by law",
+      "reference": "Specific Relief Act, 1877, S.3"
+    },
+    {
+      "id": 6,
+      "topic": "Definitions - S.3",
+      "question": "Under section 3, 'trust' includes:",
+      "options": [
+        "Every species of express, implied, or constructive fiduciary ownership",
+        "Only express trusts",
+        "Only statutory trusts",
+        "Only constructive trusts"
+      ],
+      "answer": "Every species of express, implied, or constructive fiduciary ownership",
+      "reference": "Specific Relief Act, 1877, S.3"
+    },
+    {
+      "id": 7,
+      "topic": "Definitions - S.3",
+      "question": "Under section 3, a 'trustee' includes:",
+      "options": [
+        "Every person holding expressly, by implication, or constructively, a fiduciary character",
+        "Only a person appointed by a court",
+        "Only a person appointed under the Trusts Act",
+        "Only an express trustee"
+      ],
+      "answer": "Every person holding expressly, by implication, or constructively, a fiduciary character",
+      "reference": "Specific Relief Act, 1877, S.3"
+    },
+    {
+      "id": 8,
+      "topic": "Specific Relief - S.5",
+      "question": "Specific relief may be given by taking possession of certain property and:",
+      "options": [
+        "Delivering it to a claimant",
+        "Selling it by auction",
+        "Transferring it to the Government",
+        "Destroying it"
+      ],
+      "answer": "Delivering it to a claimant",
+      "reference": "Specific Relief Act, 1877, S.5(a)"
+    },
+    {
+      "id": 9,
+      "topic": "Specific Relief - S.5",
+      "question": "Specific relief under section 5 may be given by ordering a party:",
+      "options": [
+        "To do the very act which he is under an obligation to do",
+        "To pay every disputed debt",
+        "To submit to arbitration",
+        "To admit liability"
+      ],
+      "answer": "To do the very act which he is under an obligation to do",
+      "reference": "Specific Relief Act, 1877, S.5(b)"
+    },
+    {
+      "id": 10,
+      "topic": "Specific Relief - S.5",
+      "question": "Specific relief may be given by preventing a party from doing that which he is under an obligation:",
+      "options": [
+        "Not to do",
+        "To do",
+        "To compensate",
+        "To disclose"
+      ],
+      "answer": "Not to do",
+      "reference": "Specific Relief Act, 1877, S.5(c)"
+    },
+    {
+      "id": 11,
+      "topic": "Specific Relief - S.5",
+      "question": "Which of the following is expressly mentioned in section 5 as a mode of giving specific relief?",
+      "options": [
+        "Appointing a receiver",
+        "Awarding punitive damages",
+        "Imposing imprisonment",
+        "Ordering arbitration"
+      ],
+      "answer": "Appointing a receiver",
+      "reference": "Specific Relief Act, 1877, S.5(e)"
+    },
+    {
+      "id": 12,
+      "topic": "Preventive Relief - S.6",
+      "question": "Specific relief granted under section 5(c) is called:",
+      "options": [
+        "Preventive relief",
+        "Declaratory relief",
+        "Compensatory relief",
+        "Restitutionary relief"
+      ],
+      "answer": "Preventive relief",
+      "reference": "Specific Relief Act, 1877, S.6"
+    },
+    {
+      "id": 13,
+      "topic": "Penal Law - S.7",
+      "question": "Specific relief cannot be granted for the mere purpose of:",
+      "options": [
+        "Enforcing a penal law",
+        "Protecting property",
+        "Recovering possession",
+        "Preventing breach of an obligation"
+      ],
+      "answer": "Enforcing a penal law",
+      "reference": "Specific Relief Act, 1877, S.7"
+    },
+    {
+      "id": 14,
+      "topic": "Recovery of Immovable Property - S.8",
+      "question": "A person entitled to possession of specific immovable property may recover it in the manner prescribed by:",
+      "options": [
+        "The Code of Civil Procedure",
+        "The Penal Code",
+        "The Evidence Act",
+        "The Contract Act"
+      ],
+      "answer": "The Code of Civil Procedure",
+      "reference": "Specific Relief Act, 1877, S.8"
+    },
+    {
+      "id": 15,
+      "topic": "Dispossession - S.9",
+      "question": "Section 9 applies where a person is dispossessed of immovable property:",
+      "options": [
+        "Without his consent otherwise than in due course of law",
+        "Only after a court decree",
+        "With his written consent",
+        "Only by the Government"
+      ],
+      "answer": "Without his consent otherwise than in due course of law",
+      "reference": "Specific Relief Act, 1877, S.9"
+    },
+    {
+      "id": 16,
+      "topic": "Dispossession - S.9",
+      "question": "In a suit under section 9, the defendant may set up:",
+      "options": [
+        "Any other title as a defence, but that does not prevent the statutory remedy",
+        "Only a registered title",
+        "Only a title obtained after dispossession",
+        "No title at all"
+      ],
+      "answer": "Any other title as a defence, but that does not prevent the statutory remedy",
+      "reference": "Specific Relief Act, 1877, S.9"
+    },
+    {
+      "id": 17,
+      "topic": "Dispossession - S.9",
+      "question": "A suit under section 9 does not bar a person from suing to:",
+      "options": [
+        "Establish his title and recover possession",
+        "Recover criminal compensation",
+        "Obtain a divorce",
+        "Challenge the Constitution"
+      ],
+      "answer": "Establish his title and recover possession",
+      "reference": "Specific Relief Act, 1877, S.9"
+    },
+    {
+      "id": 18,
+      "topic": "Dispossession - S.9",
+      "question": "A suit under section 9 may be brought against:",
+      "options": [
+        "Any person except the Government",
+        "The Government only",
+        "The Government and no private person",
+        "Only a trespasser who admits possession"
+      ],
+      "answer": "Any person except the Government",
+      "reference": "Specific Relief Act, 1877, S.9"
+    },
+    {
+      "id": 19,
+      "topic": "Dispossession - S.9",
+      "question": "From an order or decree passed in a suit under section 9:",
+      "options": [
+        "No appeal lies",
+        "A first appeal always lies",
+        "A second appeal always lies",
+        "An appeal lies only with Government permission"
+      ],
+      "answer": "No appeal lies",
+      "reference": "Specific Relief Act, 1877, S.9"
+    },
+    {
+      "id": 20,
+      "topic": "Dispossession - S.9",
+      "question": "Under section 9, review of an order or decree passed in such a suit is:",
+      "options": [
+        "Not allowed",
+        "Always allowed",
+        "Allowed as of right",
+        "Allowed only by consent"
+      ],
+      "answer": "Not allowed",
+      "reference": "Specific Relief Act, 1877, S.9"
+    },
+    {
+      "id": 21,
+      "topic": "Moveable Property - S.10",
+      "question": "A person entitled to possession of specific movable property may recover it in the manner prescribed by:",
+      "options": [
+        "The Code of Civil Procedure",
+        "The Penal Code",
+        "The Transfer of Property Act",
+        "The Registration Act"
+      ],
+      "answer": "The Code of Civil Procedure",
+      "reference": "Specific Relief Act, 1877, S.10"
+    },
+    {
+      "id": 22,
+      "topic": "Moveable Property - S.10",
+      "question": "Under section 10, a trustee may sue for possession of movable property for:",
+      "options": [
+        "The beneficial interest to which the person for whom he is trustee is entitled",
+        "The Government's benefit",
+        "His own benefit only",
+        "The benefit of any stranger"
+      ],
+      "answer": "The beneficial interest to which the person for whom he is trustee is entitled",
+      "reference": "Specific Relief Act, 1877, S.10, Explanation 1"
+    },
+    {
+      "id": 23,
+      "topic": "Moveable Property - S.10",
+      "question": "Under section 10, a special or temporary right to present possession of property is:",
+      "options": [
+        "Sufficient to support a suit",
+        "Never sufficient",
+        "Sufficient only if registered",
+        "Sufficient only against the Government"
+      ],
+      "answer": "Sufficient to support a suit",
+      "reference": "Specific Relief Act, 1877, S.10, Explanation 2"
+    },
+    {
+      "id": 24,
+      "topic": "Moveable Property - S.11",
+      "question": "Section 11 concerns a person having possession or control of a particular article of movable property who is:",
+      "options": [
+        "Not the owner",
+        "Always the owner",
+        "A government officer",
+        "A purchaser in good faith"
+      ],
+      "answer": "Not the owner",
+      "reference": "Specific Relief Act, 1877, S.11"
+    },
+    {
+      "id": 25,
+      "topic": "Moveable Property - S.11",
+      "question": "Under section 11, specific delivery may be compelled where the thing claimed is held by the defendant as:",
+      "options": [
+        "Agent or trustee of the claimant",
+        "Adverse possessor only",
+        "Tenant only",
+        "Purchaser only"
+      ],
+      "answer": "Agent or trustee of the claimant",
+      "reference": "Specific Relief Act, 1877, S.11(a)"
+    },
+    {
+      "id": 26,
+      "topic": "Moveable Property - S.11",
+      "question": "Under section 11, specific delivery may be ordered where compensation in money would:",
+      "options": [
+        "Not afford adequate relief",
+        "Always be adequate",
+        "Be greater than the value of the property",
+        "Be payable to the Government"
+      ],
+      "answer": "Not afford adequate relief",
+      "reference": "Specific Relief Act, 1877, S.11(b)"
+    },
+    {
+      "id": 27,
+      "topic": "Specific Performance - S.12",
+      "question": "Specific performance under section 12 may be enforced:",
+      "options": [
+        "In the discretion of the Court",
+        "Automatically in every case",
+        "Only by consent of the defendant",
+        "Only by the Government"
+      ],
+      "answer": "In the discretion of the Court",
+      "reference": "Specific Relief Act, 1877, S.12"
+    },
+    {
+      "id": 28,
+      "topic": "Specific Performance - S.12",
+      "question": "Specific performance may be granted where the act agreed to be done is wholly or partly in the performance of:",
+      "options": [
+        "A trust",
+        "A crime",
+        "A tax liability",
+        "A criminal sentence"
+      ],
+      "answer": "A trust",
+      "reference": "Specific Relief Act, 1877, S.12(a)"
+    },
+    {
+      "id": 29,
+      "topic": "Specific Performance - S.12",
+      "question": "Specific performance may be granted where there exists no standard for ascertaining:",
+      "options": [
+        "The actual damage caused by non-performance",
+        "The identity of the defendant",
+        "The jurisdiction of the court",
+        "The value of court fees"
+      ],
+      "answer": "The actual damage caused by non-performance",
+      "reference": "Specific Relief Act, 1877, S.12(b)"
+    },
+    {
+      "id": 30,
+      "topic": "Specific Performance - S.12",
+      "question": "Specific performance may be granted when pecuniary compensation for non-performance would:",
+      "options": [
+        "Not afford adequate relief",
+        "Always be sufficient",
+        "Be unnecessary because there was no contract",
+        "Be payable by the Court"
+      ],
+      "answer": "Not afford adequate relief",
+      "reference": "Specific Relief Act, 1877, S.12(c)"
+    },
+    {
+      "id": 31,
+      "topic": "Specific Performance - S.12",
+      "question": "Under section 12, in the absence of proof to the contrary, breach of a contract to transfer immovable property is presumed to be:",
+      "options": [
+        "Not adequately relieved by compensation in money",
+        "Adequately relieved by compensation",
+        "Void",
+        "Illegal"
+      ],
+      "answer": "Not adequately relieved by compensation in money",
+      "reference": "Specific Relief Act, 1877, S.12, Explanation"
+    },
+    {
+      "id": 32,
+      "topic": "Specific Performance - S.12",
+      "question": "Under section 12, breach of a contract to transfer movable property is presumed, unless the contrary is proved, to be:",
+      "options": [
+        "Adequately relieved by compensation in money",
+        "Not capable of compensation",
+        "Voidable",
+        "Illegal"
+      ],
+      "answer": "Adequately relieved by compensation in money",
+      "reference": "Specific Relief Act, 1877, S.12, Explanation"
+    },
+    {
+      "id": 33,
+      "topic": "Specific Performance - S.12",
+      "question": "If the Court refuses specific performance but finds a valid contract broken by the defendant and the plaintiff entitled to compensation, the Court:",
+      "options": [
+        "Shall award compensation",
+        "Must dismiss the suit without compensation",
+        "Must refer the matter to arbitration",
+        "Must imprison the defendant"
+      ],
+      "answer": "Shall award compensation",
+      "reference": "Specific Relief Act, 1877, S.12"
+    },
+    {
+      "id": 34,
+      "topic": "Specific Performance - S.13",
+      "question": "Section 13 deals with a contract whose subject-matter has:",
+      "options": [
+        "Partially ceased to exist",
+        "Never existed",
+        "Been transferred to Government",
+        "Been criminally confiscated"
+      ],
+      "answer": "Partially ceased to exist",
+      "reference": "Specific Relief Act, 1877, S.13"
+    },
+    {
+      "id": 35,
+      "topic": "Specific Performance - S.13",
+      "question": "A contract is not wholly impossible of performance merely because:",
+      "options": [
+        "A portion of its subject-matter existing at its date has ceased to exist at the time of performance",
+        "The defendant refuses to perform",
+        "The plaintiff changes his mind",
+        "The contract is oral"
+      ],
+      "answer": "A portion of its subject-matter existing at its date has ceased to exist at the time of performance",
+      "reference": "Specific Relief Act, 1877, S.13"
+    },
+    {
+      "id": 36,
+      "topic": "Part Performance - S.14",
+      "question": "Under section 14, where the unperformed part is only a small proportion of the whole in value and admits of compensation in money, the Court may:",
+      "options": [
+        "Order specific performance of the performable part and award compensation for the deficiency",
+        "Always dismiss the suit",
+        "Order criminal punishment",
+        "Declare the entire contract void"
+      ],
+      "answer": "Order specific performance of the performable part and award compensation for the deficiency",
+      "reference": "Specific Relief Act, 1877, S.14"
+    },
+    {
+      "id": 37,
+      "topic": "Part Performance - S.15",
+      "question": "Where the unperformed part forms a considerable portion of the whole, the party unable to perform the whole is generally:",
+      "options": [
+        "Not entitled to obtain a decree for specific performance",
+        "Automatically entitled to specific performance",
+        "Entitled to specific performance without conditions",
+        "Entitled to criminal relief"
+      ],
+      "answer": "Not entitled to obtain a decree for specific performance",
+      "reference": "Specific Relief Act, 1877, S.15"
+    },
+    {
+      "id": 38,
+      "topic": "Part Performance - S.15",
+      "question": "Under section 15, the Court may direct the party in default to perform specifically so much as he can perform if the other party:",
+      "options": [
+        "Relinquishes all claim to further performance and compensation for the deficiency or loss",
+        "Demands punitive damages",
+        "Refuses to perform his own part",
+        "Obtains Government approval"
+      ],
+      "answer": "Relinquishes all claim to further performance and compensation for the deficiency or loss",
+      "reference": "Specific Relief Act, 1877, S.15"
+    },
+    {
+      "id": 39,
+      "topic": "Part Performance - S.16",
+      "question": "Section 16 permits specific performance of a part of a contract when that part:",
+      "options": [
+        "Can and ought to be specifically performed and stands on a separate and independent footing",
+        "Is the most expensive part",
+        "Is oral",
+        "Has already been cancelled"
+      ],
+      "answer": "Can and ought to be specifically performed and stands on a separate and independent footing",
+      "reference": "Specific Relief Act, 1877, S.16"
+    },
+    {
+      "id": 40,
+      "topic": "Part Performance - S.17",
+      "question": "Section 17 generally provides that the Court shall not direct specific performance of part of a contract except in cases falling under:",
+      "options": [
+        "Sections 14, 15 or 16",
+        "Sections 5, 6 or 7",
+        "Sections 31, 32 or 33",
+        "Sections 52, 53 or 54"
+      ],
+      "answer": "Sections 14, 15 or 16",
+      "reference": "Specific Relief Act, 1877, S.17"
+    },
+    {
+      "id": 41,
+      "topic": "Compensation - S.19",
+      "question": "A person suing for specific performance may also ask for compensation:",
+      "options": [
+        "In addition to or in substitution for specific performance",
+        "Only after execution of the decree",
+        "Only if the defendant agrees",
+        "Only in a criminal proceeding"
+      ],
+      "answer": "In addition to or in substitution for specific performance",
+      "reference": "Specific Relief Act, 1877, S.19"
+    },
+    {
+      "id": 42,
+      "topic": "Compensation - S.19",
+      "question": "Under section 19, compensation may be awarded even where the contract has become:",
+      "options": [
+        "Incapable of specific performance",
+        "Void from inception",
+        "Criminal in nature",
+        "Unregistered in every case"
+      ],
+      "answer": "Incapable of specific performance",
+      "reference": "Specific Relief Act, 1877, S.19"
+    },
+    {
+      "id": 43,
+      "topic": "Liquidated Damages - S.20",
+      "question": "A contract otherwise proper to be specifically enforced may be specifically enforced even though:",
+      "options": [
+        "A sum is named as the amount to be paid in case of breach",
+        "The defendant has already paid damages",
+        "The contract is criminal",
+        "The plaintiff has no legal right"
+      ],
+      "answer": "A sum is named as the amount to be paid in case of breach",
+      "reference": "Specific Relief Act, 1877, S.20"
+    },
+    {
+      "id": 44,
+      "topic": "Specific Performance - S.21",
+      "question": "A contract cannot be specifically enforced where compensation in money is:",
+      "options": [
+        "An adequate relief for its non-performance",
+        "Impossible to calculate",
+        "Expressly prohibited",
+        "Less than the contract price"
+      ],
+      "answer": "An adequate relief for its non-performance",
+      "reference": "Specific Relief Act, 1877, S.21(a)"
+    },
+    {
+      "id": 45,
+      "topic": "Specific Performance - S.21",
+      "question": "A contract depending on personal qualifications or volition of the parties may be incapable of specific enforcement where:",
+      "options": [
+        "The Court cannot enforce its material terms",
+        "The contract is written",
+        "The parties are adults",
+        "The consideration is money"
+      ],
+      "answer": "The Court cannot enforce its material terms",
+      "reference": "Specific Relief Act, 1877, S.21(b)"
+    },
+    {
+      "id": 46,
+      "topic": "Specific Performance - S.21",
+      "question": "A contract whose terms cannot be found with reasonable certainty:",
+      "options": [
+        "Cannot be specifically enforced",
+        "Must always be specifically enforced",
+        "Is automatically a trust",
+        "Can be enforced only against the Government"
+      ],
+      "answer": "Cannot be specifically enforced",
+      "reference": "Specific Relief Act, 1877, S.21(c)"
+    },
+    {
+      "id": 47,
+      "topic": "Specific Performance - S.21",
+      "question": "A contract which is in its nature revocable:",
+      "options": [
+        "Cannot be specifically enforced",
+        "Must be specifically enforced",
+        "Can only be enforced against a stranger",
+        "Creates a perpetual injunction automatically"
+      ],
+      "answer": "Cannot be specifically enforced",
+      "reference": "Specific Relief Act, 1877, S.21(d)"
+    },
+    {
+      "id": 48,
+      "topic": "Specific Performance - S.21",
+      "question": "A contract made by trustees in excess of their powers or in breach of their trust:",
+      "options": [
+        "Cannot be specifically enforced",
+        "Must be specifically enforced",
+        "Is enforceable only against beneficiaries",
+        "Is enforceable only by the Government"
+      ],
+      "answer": "Cannot be specifically enforced",
+      "reference": "Specific Relief Act, 1877, S.21(e)"
+    },
+    {
+      "id": 49,
+      "topic": "Specific Performance - S.21",
+      "question": "A contract made by or on behalf of a corporation created for special purposes, when it is in excess of its powers:",
+      "options": [
+        "Cannot be specifically enforced",
+        "Must always be enforced",
+        "Is enforceable only against directors",
+        "Is enforceable only after registration"
+      ],
+      "answer": "Cannot be specifically enforced",
+      "reference": "Specific Relief Act, 1877, S.21(f)"
+    },
+    {
+      "id": 50,
+      "topic": "Specific Performance - S.21A",
+      "question": "Under section 21A, a contract for sale of immovable property cannot be specifically enforced unless the contract is:",
+      "options": [
+        "In writing and registered under the Registration Act, 1908",
+        "Only oral and witnessed",
+        "Registered only after filing the suit",
+        "Approved by the Government"
+      ],
+      "answer": "In writing and registered under the Registration Act, 1908",
+      "reference": "Specific Relief Act, 1877, S.21A(a)"
+    },
+    {
+      "id": 51,
+      "topic": "Specific Performance - S.21A",
+      "question": "Under section 21A, for specific performance of a contract for sale of immovable property, the balance amount of consideration must be:",
+      "options": [
+        "Deposited in court at the time of filing the suit",
+        "Paid to the defendant before filing the suit",
+        "Deposited after decree",
+        "Paid to the Government"
+      ],
+      "answer": "Deposited in court at the time of filing the suit",
+      "reference": "Specific Relief Act, 1877, S.21A(b)"
+    },
+    {
+      "id": 52,
+      "topic": "Specific Performance - S.21A",
+      "question": "Section 21A was inserted by:",
+      "options": [
+        "The Specific Relief (Amendment) Act, 2004",
+        "The Contract Act, 1872",
+        "The Registration Act, 1908",
+        "The Limitation Act, 1908"
+      ],
+      "answer": "The Specific Relief (Amendment) Act, 2004",
+      "reference": "Specific Relief Act, 1877, S.21A amendment note"
+    },
+    {
+      "id": 53,
+      "topic": "Specific Performance - S.21A",
+      "question": "Section 21A came into effect on:",
+      "options": [
+        "1 July 2005",
+        "1 May 1877",
+        "1 January 2004",
+        "7 February 1973"
+      ],
+      "answer": "1 July 2005",
+      "reference": "Specific Relief Act, 1877, amendment note to S.21A"
+    },
+    {
+      "id": 54,
+      "topic": "Discretion - S.22",
+      "question": "The jurisdiction to decree specific performance is:",
+      "options": [
+        "Discretionary",
+        "Purely ministerial",
+        "Criminal",
+        "Mandatory in every lawful contract"
+      ],
+      "answer": "Discretionary",
+      "reference": "Specific Relief Act, 1877, S.22"
+    },
+    {
+      "id": 55,
+      "topic": "Discretion - S.22",
+      "question": "The discretion under section 22 is not arbitrary but must be:",
+      "options": [
+        "Sound and reasonable, guided by judicial principles",
+        "Based solely on the defendant's wishes",
+        "Based solely on market value",
+        "Based solely on Government policy"
+      ],
+      "answer": "Sound and reasonable, guided by judicial principles",
+      "reference": "Specific Relief Act, 1877, S.22"
+    },
+    {
+      "id": 56,
+      "topic": "Discretion - S.22",
+      "question": "The discretion of the Court under section 22 is capable of correction by:",
+      "options": [
+        "A Court of appeal",
+        "The police",
+        "The registrar of deeds",
+        "The defendant"
+      ],
+      "answer": "A Court of appeal",
+      "reference": "Specific Relief Act, 1877, S.22"
+    },
+    {
+      "id": 57,
+      "topic": "Who May Obtain Specific Performance - S.23",
+      "question": "Under section 23, specific performance may generally be obtained by:",
+      "options": [
+        "Any party to the contract",
+        "Only the defendant",
+        "Only the Government",
+        "Only a third-party stranger"
+      ],
+      "answer": "Any party to the contract",
+      "reference": "Specific Relief Act, 1877, S.23(a)"
+    },
+    {
+      "id": 58,
+      "topic": "Who May Obtain Specific Performance - S.23",
+      "question": "A representative in interest may generally obtain specific performance subject to the exceptions concerning:",
+      "options": [
+        "Personal qualities and non-assignment",
+        "Court fees only",
+        "Nationality only",
+        "Age only"
+      ],
+      "answer": "Personal qualities and non-assignment",
+      "reference": "Specific Relief Act, 1877, S.23(b)"
+    },
+    {
+      "id": 59,
+      "topic": "Who May Obtain Specific Performance - S.23",
+      "question": "Where a contract is a settlement on marriage, a person who may obtain specific performance includes:",
+      "options": [
+        "Any person beneficially entitled under the settlement",
+        "Any unrelated stranger",
+        "Only the registrar",
+        "Only a creditor"
+      ],
+      "answer": "Any person beneficially entitled under the settlement",
+      "reference": "Specific Relief Act, 1877, S.23(c)"
+    },
+    {
+      "id": 60,
+      "topic": "Who May Obtain Specific Performance - S.23",
+      "question": "Where a contract is a compromise of doubtful rights between members of the same family, who may obtain specific performance?",
+      "options": [
+        "A person beneficially entitled thereunder",
+        "Only the original drafter",
+        "Only the eldest family member",
+        "Only the Government"
+      ],
+      "answer": "A person beneficially entitled thereunder",
+      "reference": "Specific Relief Act, 1877, S.23(c)"
+    },
+    {
+      "id": 61,
+      "topic": "Who May Obtain Specific Performance - S.23",
+      "question": "A remainderman may obtain specific performance where the contract has been entered into by:",
+      "options": [
+        "A tenant for life in due exercise of a power",
+        "A trespasser",
+        "A criminal court",
+        "A stranger without title"
+      ],
+      "answer": "A tenant for life in due exercise of a power",
+      "reference": "Specific Relief Act, 1877, S.23(d)"
+    },
+    {
+      "id": 62,
+      "topic": "Who May Obtain Specific Performance - S.23",
+      "question": "A reversioner in possession may obtain specific performance where the agreement is a covenant entered into with:",
+      "options": [
+        "His predecessor in title",
+        "A stranger",
+        "The police",
+        "A tenant without authority"
+      ],
+      "answer": "His predecessor in title",
+      "reference": "Specific Relief Act, 1877, S.23(e)"
+    },
+    {
+      "id": 63,
+      "topic": "Who May Obtain Specific Performance - S.23",
+      "question": "A reversioner in remainder may obtain specific performance where breach would cause:",
+      "options": [
+        "Material injury",
+        "No injury",
+        "Criminal liability",
+        "Automatic forfeiture"
+      ],
+      "answer": "Material injury",
+      "reference": "Specific Relief Act, 1877, S.23(f)"
+    },
+    {
+      "id": 64,
+      "topic": "Who May Obtain Specific Performance - S.23",
+      "question": "Where a public company becomes amalgamated with another public company, a contract entered into by the original company may be specifically enforced by:",
+      "options": [
+        "The new company arising from the amalgamation",
+        "Only the original directors",
+        "Only the shareholders personally",
+        "Only the Government"
+      ],
+      "answer": "The new company arising from the amalgamation",
+      "reference": "Specific Relief Act, 1877, S.23(g)"
+    },
+    {
+      "id": 65,
+      "topic": "Who May Obtain Specific Performance - S.23",
+      "question": "A company may enforce a pre-incorporation contract entered into by its promoters when the contract is:",
+      "options": [
+        "For the purposes of the company and warranted by the terms of incorporation",
+        "For any personal purpose of the promoter",
+        "Never enforceable",
+        "Approved only by the police"
+      ],
+      "answer": "For the purposes of the company and warranted by the terms of incorporation",
+      "reference": "Specific Relief Act, 1877, S.23(h)"
+    },
+    {
+      "id": 66,
+      "topic": "Personal Bars - S.24",
+      "question": "Specific performance cannot be enforced in favour of a person who:",
+      "options": [
+        "Could not recover compensation for the breach",
+        "Has paid consideration",
+        "Is a party to the contract",
+        "Has a written contract"
+      ],
+      "answer": "Could not recover compensation for the breach",
+      "reference": "Specific Relief Act, 1877, S.24(a)"
+    },
+    {
+      "id": 67,
+      "topic": "Personal Bars - S.24",
+      "question": "Section 24 is concerned with:",
+      "options": [
+        "Personal bars to specific performance",
+        "Rectification of instruments",
+        "Cancellation of instruments",
+        "Receivers"
+      ],
+      "answer": "Personal bars to specific performance",
+      "reference": "Specific Relief Act, 1877, S.24"
+    },
+    {
+      "id": 68,
+      "topic": "Specific Performance - S.26",
+      "question": "Section 26 deals with:",
+      "options": [
+        "Non-enforcement except with variation",
+        "Recovery of immovable property",
+        "Perpetual injunctions",
+        "Receivers"
+      ],
+      "answer": "Non-enforcement except with variation",
+      "reference": "Specific Relief Act, 1877, S.26"
+    },
+    {
+      "id": 69,
+      "topic": "Specific Performance - S.26",
+      "question": "Under section 26, specific performance may be refused except with a variation where fraud or mistake of fact caused the contract sought to be enforced to differ from:",
+      "options": [
+        "The contract the defendant supposed it to be",
+        "The contract registered by the Government",
+        "The plaintiff's previous contract",
+        "A criminal statute"
+      ],
+      "answer": "The contract the defendant supposed it to be",
+      "reference": "Specific Relief Act, 1877, S.26(a)"
+    },
+    {
+      "id": 70,
+      "topic": "Specific Performance - S.27",
+      "question": "Specific performance may generally be enforced against:",
+      "options": [
+        "Either party to the contract",
+        "Only the plaintiff",
+        "Only a stranger",
+        "Only the Government"
+      ],
+      "answer": "Either party to the contract",
+      "reference": "Specific Relief Act, 1877, S.27(a)"
+    },
+    {
+      "id": 71,
+      "topic": "Specific Performance - S.27",
+      "question": "A subsequent transferee for value who has paid his money in good faith and without notice of the original contract is generally:",
+      "options": [
+        "Protected from specific performance under section 27",
+        "Always bound by the contract",
+        "Automatically a trustee",
+        "Automatically liable for damages"
+      ],
+      "answer": "Protected from specific performance under section 27",
+      "reference": "Specific Relief Act, 1877, S.27(b)"
+    },
+    {
+      "id": 72,
+      "topic": "Specific Performance - S.28",
+      "question": "Specific performance cannot be enforced against a party where the consideration to be received by him is so grossly inadequate as to be evidence of:",
+      "options": [
+        "Fraud or undue advantage taken by the plaintiff",
+        "Mistake of law only",
+        "A valid trust",
+        "A completed sale"
+      ],
+      "answer": "Fraud or undue advantage taken by the plaintiff",
+      "reference": "Specific Relief Act, 1877, S.28(a)"
+    },
+    {
+      "id": 73,
+      "topic": "Specific Performance - S.28",
+      "question": "Specific performance cannot be enforced against a party whose assent was obtained by:",
+      "options": [
+        "Misrepresentation, concealment, circumvention or unfair practices",
+        "A registered agreement alone",
+        "Payment of consideration",
+        "A court decree"
+      ],
+      "answer": "Misrepresentation, concealment, circumvention or unfair practices",
+      "reference": "Specific Relief Act, 1877, S.28(b)"
+    },
+    {
+      "id": 74,
+      "topic": "Specific Performance - S.28",
+      "question": "Under section 28, assent given under the influence of mistake of fact, misapprehension or surprise may constitute:",
+      "options": [
+        "A bar to specific performance against the party",
+        "An automatic transfer of title",
+        "A perpetual injunction",
+        "A criminal offence"
+      ],
+      "answer": "A bar to specific performance against the party",
+      "reference": "Specific Relief Act, 1877, S.28(c)"
+    },
+    {
+      "id": 75,
+      "topic": "Dismissal of Suit - S.29",
+      "question": "Dismissal of a suit for specific performance of a contract bars the plaintiff's subsequent right to sue for:",
+      "options": [
+        "Compensation for the breach of that contract",
+        "Recovery of court fees",
+        "Criminal punishment",
+        "Any unrelated cause of action"
+      ],
+      "answer": "Compensation for the breach of that contract",
+      "reference": "Specific Relief Act, 1877, S.29"
+    },
+    {
+      "id": 76,
+      "topic": "Awards and Testamentary Directions - S.30",
+      "question": "The provisions of Chapter II as to contracts apply, mutatis mutandis, to:",
+      "options": [
+        "Awards and directions in a will or codicil to execute a particular settlement",
+        "Criminal judgments only",
+        "Tax assessments",
+        "Police reports"
+      ],
+      "answer": "Awards and directions in a will or codicil to execute a particular settlement",
+      "reference": "Specific Relief Act, 1877, S.30"
+    },
+    {
+      "id": 77,
+      "topic": "Rectification - S.31",
+      "question": "An instrument may be rectified where, through fraud or mutual mistake, it does not:",
+      "options": [
+        "Truly express the intention of the parties",
+        "Contain a witness signature",
+        "Contain consideration",
+        "Have a court seal"
+      ],
+      "answer": "Truly express the intention of the parties",
+      "reference": "Specific Relief Act, 1877, S.31"
+    },
+    {
+      "id": 78,
+      "topic": "Rectification - S.31",
+      "question": "Who may institute a suit for rectification under section 31?",
+      "options": [
+        "Either party or his representative in interest",
+        "Only the defendant",
+        "Only the Registrar",
+        "Only the Government"
+      ],
+      "answer": "Either party or his representative in interest",
+      "reference": "Specific Relief Act, 1877, S.31"
+    },
+    {
+      "id": 79,
+      "topic": "Rectification - S.31",
+      "question": "Rectification cannot prejudice rights acquired by third persons:",
+      "options": [
+        "In good faith and for value",
+        "Without consideration and in bad faith",
+        "Only after litigation begins",
+        "Only from the Government"
+      ],
+      "answer": "In good faith and for value",
+      "reference": "Specific Relief Act, 1877, S.31"
+    },
+    {
+      "id": 80,
+      "topic": "Rectification - S.32",
+      "question": "For rectifying a written contract, the Court must be satisfied that all parties intended to make:",
+      "options": [
+        "An equitable and conscientious agreement",
+        "A criminal agreement",
+        "An oral agreement",
+        "A void agreement"
+      ],
+      "answer": "An equitable and conscientious agreement",
+      "reference": "Specific Relief Act, 1877, S.32"
+    },
+    {
+      "id": 81,
+      "topic": "Rectification - S.33",
+      "question": "In rectifying a written instrument, the Court may inquire into:",
+      "options": [
+        "What the instrument was intended to mean and its intended legal consequences",
+        "Only the literal dictionary meaning of every word",
+        "Only the market value of the property",
+        "Only the intention of the defendant"
+      ],
+      "answer": "What the instrument was intended to mean and its intended legal consequences",
+      "reference": "Specific Relief Act, 1877, S.33"
+    },
+    {
+      "id": 82,
+      "topic": "Rectification - S.34",
+      "question": "A written contract may be first rectified and then specifically enforced if:",
+      "options": [
+        "The plaintiff has so prayed in the plaint and the Court thinks fit",
+        "The defendant refuses to appear",
+        "The contract is oral",
+        "The Registrar orders it"
+      ],
+      "answer": "The plaintiff has so prayed in the plaint and the Court thinks fit",
+      "reference": "Specific Relief Act, 1877, S.34"
+    },
+    {
+      "id": 83,
+      "topic": "Rescission - S.35",
+      "question": "Who may sue to have a contract in writing rescinded under section 35?",
+      "options": [
+        "Any person interested in the contract",
+        "Only the original drafter",
+        "Only the defendant",
+        "Only a government officer"
+      ],
+      "answer": "Any person interested in the contract",
+      "reference": "Specific Relief Act, 1877, S.35"
+    },
+    {
+      "id": 84,
+      "topic": "Rescission - S.35",
+      "question": "A contract may be rescinded under section 35 where it is:",
+      "options": [
+        "Voidable or terminable by the plaintiff",
+        "Always valid and fully performed",
+        "A criminal judgment",
+        "A decree of a court"
+      ],
+      "answer": "Voidable or terminable by the plaintiff",
+      "reference": "Specific Relief Act, 1877, S.35(a)"
+    },
+    {
+      "id": 85,
+      "topic": "Rescission - S.35",
+      "question": "An unlawful contract may be rescinded under section 35 where the unlawfulness is:",
+      "options": [
+        "For causes not apparent on its face and the defendant is more to blame than the plaintiff",
+        "Apparent on its face in every case",
+        "Caused solely by the plaintiff",
+        "Approved by both parties"
+      ],
+      "answer": "For causes not apparent on its face and the defendant is more to blame than the plaintiff",
+      "reference": "Specific Relief Act, 1877, S.35(b)"
+    },
+    {
+      "id": 86,
+      "topic": "Rescission - S.35",
+      "question": "Where a decree for specific performance of a sale contract has been made and the purchaser defaults in payment ordered by the Court, the contract may be:",
+      "options": [
+        "Rescinded",
+        "Automatically renewed",
+        "Converted into a criminal case",
+        "Transferred to the Government"
+      ],
+      "answer": "Rescinded",
+      "reference": "Specific Relief Act, 1877, S.35(c)"
+    },
+    {
+      "id": 87,
+      "topic": "Rescission - S.35",
+      "question": "If a purchaser or lessee is in possession and the Court finds the possession wrongful, the Court may order payment of:",
+      "options": [
+        "Rents and profits received as such possessor",
+        "Only punitive damages",
+        "Only court fees",
+        "Only stamp duty"
+      ],
+      "answer": "Rents and profits received as such possessor",
+      "reference": "Specific Relief Act, 1877, S.35"
+    },
+    {
+      "id": 88,
+      "topic": "Rescission - S.36",
+      "question": "Rescission for mere mistake cannot generally be adjudged unless the party against whom rescission is ordered can be restored to:",
+      "options": [
+        "Substantially the same position as if the contract had not been made",
+        "A better position than before",
+        "A position chosen by the plaintiff",
+        "A position determined by the police"
+      ],
+      "answer": "Substantially the same position as if the contract had not been made",
+      "reference": "Specific Relief Act, 1877, S.36"
+    },
+    {
+      "id": 89,
+      "topic": "Rescission - S.37",
+      "question": "A plaintiff seeking specific performance may pray in the alternative for:",
+      "options": [
+        "Rescission and delivery up of the contract for cancellation",
+        "Criminal prosecution",
+        "Imprisonment of the defendant",
+        "Arbitration only"
+      ],
+      "answer": "Rescission and delivery up of the contract for cancellation",
+      "reference": "Specific Relief Act, 1877, S.37"
+    },
+    {
+      "id": 90,
+      "topic": "Rescission - S.38",
+      "question": "On adjudging rescission of a contract, the Court may require the party receiving relief to make:",
+      "options": [
+        "Compensation to the other party as justice may require",
+        "A criminal confession",
+        "A new contract",
+        "A statutory declaration"
+      ],
+      "answer": "Compensation to the other party as justice may require",
+      "reference": "Specific Relief Act, 1877, S.38"
+    },
+    {
+      "id": 91,
+      "topic": "Cancellation - S.39",
+      "question": "A person against whom a written instrument is void or voidable may sue for cancellation when he has reasonable apprehension that leaving it outstanding may cause:",
+      "options": [
+        "Serious injury",
+        "No injury",
+        "Only inconvenience",
+        "Criminal punishment"
+      ],
+      "answer": "Serious injury",
+      "reference": "Specific Relief Act, 1877, S.39"
+    },
+    {
+      "id": 92,
+      "topic": "Cancellation - S.39",
+      "question": "Cancellation of an instrument under section 39 is:",
+      "options": [
+        "A discretionary relief of the Court",
+        "An automatic administrative act",
+        "A criminal punishment",
+        "A right exercisable without court"
+      ],
+      "answer": "A discretionary relief of the Court",
+      "reference": "Specific Relief Act, 1877, S.39"
+    },
+    {
+      "id": 93,
+      "topic": "Cancellation - S.40",
+      "question": "Where an instrument is evidence of different rights or obligations, the Court may:",
+      "options": [
+        "Cancel it in part and allow it to stand for the residue",
+        "Always cancel the entire instrument",
+        "Never cancel any part",
+        "Convert it into a decree"
+      ],
+      "answer": "Cancel it in part and allow it to stand for the residue",
+      "reference": "Specific Relief Act, 1877, S.40"
+    },
+    {
+      "id": 94,
+      "topic": "Cancellation - S.41",
+      "question": "On adjudging cancellation of an instrument, the Court may require the party receiving relief to make:",
+      "options": [
+        "Compensation to the other party as justice may require",
+        "A new instrument in every case",
+        "A criminal confession",
+        "Payment to the Government in every case"
+      ],
+      "answer": "Compensation to the other party as justice may require",
+      "reference": "Specific Relief Act, 1877, S.41"
+    },
+    {
+      "id": 95,
+      "topic": "Declaratory Decree - S.42",
+      "question": "A person entitled to any legal character or any right as to property may institute a suit against a person:",
+      "options": [
+        "Denying or interested to deny his title to that character or right",
+        "Who has never disputed anything",
+        "Who is unrelated to the matter",
+        "Who is necessarily a Government officer"
+      ],
+      "answer": "Denying or interested to deny his title to that character or right",
+      "reference": "Specific Relief Act, 1877, S.42"
+    },
+    {
+      "id": 96,
+      "topic": "Declaratory Decree - S.42",
+      "question": "A declaratory decree under section 42 is granted:",
+      "options": [
+        "In the discretion of the Court",
+        "Automatically",
+        "Only by the Government",
+        "Only after criminal conviction"
+      ],
+      "answer": "In the discretion of the Court",
+      "reference": "Specific Relief Act, 1877, S.42"
+    },
+    {
+      "id": 97,
+      "topic": "Declaratory Decree - S.43",
+      "question": "A declaration under Chapter VI is binding upon:",
+      "options": [
+        "The parties to the suit and persons claiming through them respectively",
+        "Every person in Bangladesh",
+        "Only Government officers",
+        "No one"
+      ],
+      "answer": "The parties to the suit and persons claiming through them respectively",
+      "reference": "Specific Relief Act, 1877, S.43"
+    },
+    {
+      "id": 98,
+      "topic": "Receivers - S.44",
+      "question": "The appointment of a receiver pending a suit is a matter:",
+      "options": [
+        "Resting in the discretion of the Court",
+        "Automatically available to every plaintiff",
+        "Determined by the defendant",
+        "Determined by the Registrar"
+      ],
+      "answer": "Resting in the discretion of the Court",
+      "reference": "Specific Relief Act, 1877, S.44"
+    },
+    {
+      "id": 99,
+      "topic": "Receivers - S.44",
+      "question": "The mode and effect of appointment of a receiver and his rights, powers, duties and liabilities are regulated by:",
+      "options": [
+        "The Code of Civil Procedure",
+        "The Penal Code",
+        "The Evidence Act",
+        "The Contract Act"
+      ],
+      "answer": "The Code of Civil Procedure",
+      "reference": "Specific Relief Act, 1877, S.44"
+    },
+    {
+      "id": 100,
+      "topic": "Preventive Relief - S.52",
+      "question": "Preventive relief is granted by way of:",
+      "options": [
+        "Injunction, temporary or perpetual",
+        "Compensation only",
+        "Arbitration only",
+        "Specific possession only"
+      ],
+      "answer": "Injunction, temporary or perpetual",
+      "reference": "Specific Relief Act, 1877, S.52"
+    },
+    {
+      "id": 101,
+      "topic": "Discretion of Court - S.22",
+      "question": "Under section 22, the Court is not bound to grant specific performance merely because:",
+      "options": [
+        "It is lawful to do so",
+        "The contract is written",
+        "The plaintiff has paid consideration",
+        "The defendant has appeared"
+      ],
+      "answer": "It is lawful to do so",
+      "reference": "Specific Relief Act, 1877, S.22"
+    },
+    {
+      "id": 102,
+      "topic": "Discretion of Court - S.22",
+      "question": "The discretion of the Court under section 22 must be:",
+      "options": [
+        "Sound and reasonable and guided by judicial principles",
+        "Arbitrary and unrestricted",
+        "Based solely on the plaintiff's choice",
+        "Based solely on the market price"
+      ],
+      "answer": "Sound and reasonable and guided by judicial principles",
+      "reference": "Specific Relief Act, 1877, S.22"
+    },
+    {
+      "id": 103,
+      "topic": "Discretion of Court - S.22",
+      "question": "The discretion exercised under section 22 is capable of correction by:",
+      "options": [
+        "A Court of appeal",
+        "The Registrar",
+        "The police",
+        "The defendant"
+      ],
+      "answer": "A Court of appeal",
+      "reference": "Specific Relief Act, 1877, S.22"
+    },
+    {
+      "id": 104,
+      "topic": "Discretion of Court - S.22",
+      "question": "Specific performance may properly be refused where the circumstances of the contract give the plaintiff:",
+      "options": [
+        "An unfair advantage over the defendant",
+        "A registered title",
+        "A written contract",
+        "A valid cause of action"
+      ],
+      "answer": "An unfair advantage over the defendant",
+      "reference": "Specific Relief Act, 1877, S.22"
+    },
+    {
+      "id": 105,
+      "topic": "Discretion of Court - S.22",
+      "question": "Under section 22, an unfair advantage may justify refusal of specific performance:",
+      "options": [
+        "Even where there is no fraud or misrepresentation by the plaintiff",
+        "Only where fraud is proved",
+        "Only where criminal conduct is proved",
+        "Only where consideration is absent"
+      ],
+      "answer": "Even where there is no fraud or misrepresentation by the plaintiff",
+      "reference": "Specific Relief Act, 1877, S.22"
+    },
+    {
+      "id": 106,
+      "topic": "Discretion of Court - S.22",
+      "question": "Specific performance may be refused where the contract would involve:",
+      "options": [
+        "Hardship to the defendant which he did not foresee",
+        "A written agreement",
+        "A transfer of property",
+        "Payment of consideration"
+      ],
+      "answer": "Hardship to the defendant which he did not foresee",
+      "reference": "Specific Relief Act, 1877, S.22"
+    },
+    {
+      "id": 107,
+      "topic": "Discretion of Court - S.22",
+      "question": "The mere fact that a contract has become:",
+      "options": [
+        "More onerous to the defendant is not by itself sufficient to refuse specific performance",
+        "Written is sufficient to refuse specific performance",
+        "Registered is sufficient to refuse specific performance",
+        "Oral is sufficient to refuse specific performance"
+      ],
+      "answer": "More onerous to the defendant is not by itself sufficient to refuse specific performance",
+      "reference": "Specific Relief Act, 1877, S.22"
+    },
+    {
+      "id": 108,
+      "topic": "Who May Obtain Specific Performance - S.23",
+      "question": "Specific performance may be obtained by a person claiming under a party to a contract unless:",
+      "options": [
+        "The contract depends upon personal qualifications or is non-assignable",
+        "The contract is written",
+        "The consideration is money",
+        "The property is immovable"
+      ],
+      "answer": "The contract depends upon personal qualifications or is non-assignable",
+      "reference": "Specific Relief Act, 1877, S.23"
+    },
+    {
+      "id": 109,
+      "topic": "Who May Obtain Specific Performance - S.23",
+      "question": "A representative in interest may enforce a contract when:",
+      "options": [
+        "The contract is not dependent upon personal qualifications and is otherwise assignable",
+        "The contract expressly prohibits enforcement",
+        "The contract is criminal",
+        "The original party has repudiated it"
+      ],
+      "answer": "The contract is not dependent upon personal qualifications and is otherwise assignable",
+      "reference": "Specific Relief Act, 1877, S.23"
+    },
+    {
+      "id": 110,
+      "topic": "Who May Obtain Specific Performance - S.23",
+      "question": "A beneficiary under a marriage settlement may seek:",
+      "options": [
+        "Specific performance",
+        "Only criminal compensation",
+        "Only a writ of habeas corpus",
+        "Only cancellation"
+      ],
+      "answer": "Specific performance",
+      "reference": "Specific Relief Act, 1877, S.23"
+    },
+    {
+      "id": 111,
+      "topic": "Who May Obtain Specific Performance - S.23",
+      "question": "A person beneficially entitled under a compromise of doubtful rights between members of a family may:",
+      "options": [
+        "Obtain specific performance",
+        "Never enforce the compromise",
+        "Only seek criminal relief",
+        "Only seek arbitration"
+      ],
+      "answer": "Obtain specific performance",
+      "reference": "Specific Relief Act, 1877, S.23"
+    },
+    {
+      "id": 112,
+      "topic": "Who May Obtain Specific Performance - S.23",
+      "question": "A remainderman may obtain specific performance of a contract entered into by:",
+      "options": [
+        "A tenant for life in due exercise of a power",
+        "A trespasser",
+        "A stranger",
+        "A police officer"
+      ],
+      "answer": "A tenant for life in due exercise of a power",
+      "reference": "Specific Relief Act, 1877, S.23"
+    },
+    {
+      "id": 113,
+      "topic": "Who May Obtain Specific Performance - S.23",
+      "question": "A reversioner in possession may obtain specific performance of a covenant entered into with:",
+      "options": [
+        "His predecessor in title",
+        "A complete stranger",
+        "A criminal court",
+        "A police officer"
+      ],
+      "answer": "His predecessor in title",
+      "reference": "Specific Relief Act, 1877, S.23"
+    },
+    {
+      "id": 114,
+      "topic": "Who May Obtain Specific Performance - S.23",
+      "question": "A reversioner in remainder must show what additional circumstance when seeking specific performance of a covenant?",
+      "options": [
+        "That he will sustain material injury from its breach",
+        "That he is a Government employee",
+        "That he has paid stamp duty",
+        "That the contract is oral"
+      ],
+      "answer": "That he will sustain material injury from its breach",
+      "reference": "Specific Relief Act, 1877, S.23"
+    },
+    {
+      "id": 115,
+      "topic": "Corporate Contracts - S.23",
+      "question": "When a public company amalgamates with another public company, the new company may enforce a contract entered into by:",
+      "options": [
+        "The original company",
+        "Only the shareholders",
+        "Only the directors personally",
+        "Only the Government"
+      ],
+      "answer": "The original company",
+      "reference": "Specific Relief Act, 1877, S.23"
+    },
+    {
+      "id": 116,
+      "topic": "Corporate Contracts - S.23",
+      "question": "A company may enforce a pre-incorporation contract made by its promoters when it was made:",
+      "options": [
+        "For the purposes of the company and warranted by the terms of incorporation",
+        "For any personal purpose",
+        "For a criminal purpose",
+        "Without any connection to the company"
+      ],
+      "answer": "For the purposes of the company and warranted by the terms of incorporation",
+      "reference": "Specific Relief Act, 1877, S.23"
+    },
+    {
+      "id": 117,
+      "topic": "Personal Bars - S.24",
+      "question": "Specific performance cannot be enforced in favour of a person who:",
+      "options": [
+        "Could not recover compensation for the breach",
+        "Is a party to the contract",
+        "Paid consideration",
+        "Has a registered contract"
+      ],
+      "answer": "Could not recover compensation for the breach",
+      "reference": "Specific Relief Act, 1877, S.24(a)"
+    },
+    {
+      "id": 118,
+      "topic": "Personal Bars - S.24",
+      "question": "A person who has become incapable of performing, or violates, an essential term of the contract on his part may be:",
+      "options": [
+        "Barred from obtaining specific performance",
+        "Automatically entitled to specific performance",
+        "Automatically entitled to an injunction",
+        "Automatically entitled to rescission"
+      ],
+      "answer": "Barred from obtaining specific performance",
+      "reference": "Specific Relief Act, 1877, S.24"
+    },
+    {
+      "id": 119,
+      "topic": "Personal Bars - S.24",
+      "question": "A plaintiff who has acted in fraud of the contract or wilfully acted at variance with its terms may:",
+      "options": [
+        "Be denied specific performance",
+        "Automatically obtain specific performance",
+        "Automatically become a trustee",
+        "Automatically obtain cancellation"
+      ],
+      "answer": "Be denied specific performance",
+      "reference": "Specific Relief Act, 1877, S.24"
+    },
+    {
+      "id": 120,
+      "topic": "Personal Bars - S.24",
+      "question": "A plaintiff who fails to prove that he has performed or has always been ready and willing to perform the essential terms may:",
+      "options": [
+        "Be barred from specific performance",
+        "Automatically obtain specific performance",
+        "Obtain a perpetual injunction as of right",
+        "Obtain cancellation as of right"
+      ],
+      "answer": "Be barred from specific performance",
+      "reference": "Specific Relief Act, 1877, S.24"
+    },
+    {
+      "id": 121,
+      "topic": "Specific Performance - S.25",
+      "question": "Section 25 deals with:",
+      "options": [
+        "Specific performance with a variation",
+        "Temporary injunctions",
+        "Cancellation",
+        "Receivers"
+      ],
+      "answer": "Specific performance with a variation",
+      "reference": "Specific Relief Act, 1877, S.25"
+    },
+    {
+      "id": 122,
+      "topic": "Specific Performance - S.25",
+      "question": "A written contract may be specifically enforced with a variation where the variation:",
+      "options": [
+        "Does not materially alter the character of the contract",
+        "Completely changes the contract",
+        "Creates a criminal obligation",
+        "Removes all consideration"
+      ],
+      "answer": "Does not materially alter the character of the contract",
+      "reference": "Specific Relief Act, 1877, S.25"
+    },
+    {
+      "id": 123,
+      "topic": "Specific Performance - S.26",
+      "question": "Under section 26, fraud or mutual mistake may justify refusal of specific performance when the written contract does not truly express:",
+      "options": [
+        "The intention of the parties",
+        "The market value",
+        "The court's opinion",
+        "The Government's policy"
+      ],
+      "answer": "The intention of the parties",
+      "reference": "Specific Relief Act, 1877, S.26"
+    },
+    {
+      "id": 124,
+      "topic": "Specific Performance - S.26",
+      "question": "Where the contract differs from what the defendant supposed it to be because of fraud or mutual mistake, the Court may:",
+      "options": [
+        "Refuse enforcement except with a variation",
+        "Always enforce it exactly as written",
+        "Automatically cancel all related documents",
+        "Impose imprisonment"
+      ],
+      "answer": "Refuse enforcement except with a variation",
+      "reference": "Specific Relief Act, 1877, S.26"
+    },
+    {
+      "id": 125,
+      "topic": "Specific Performance - S.27",
+      "question": "Specific performance may generally be enforced against:",
+      "options": [
+        "Either party to the contract",
+        "Only the plaintiff",
+        "Only a stranger",
+        "Only a subsequent purchaser"
+      ],
+      "answer": "Either party to the contract",
+      "reference": "Specific Relief Act, 1877, S.27"
+    },
+    {
+      "id": 126,
+      "topic": "Specific Performance - S.27",
+      "question": "A person claiming under a party to the contract may be bound by specific performance unless he is:",
+      "options": [
+        "A transferee for value who paid in good faith and without notice",
+        "A transferee without consideration",
+        "A person with notice",
+        "A volunteer"
+      ],
+      "answer": "A transferee for value who paid in good faith and without notice",
+      "reference": "Specific Relief Act, 1877, S.27"
+    },
+    {
+      "id": 127,
+      "topic": "Specific Performance - S.27",
+      "question": "A subsequent transferee who had notice of the original contract is:",
+      "options": [
+        "Not protected by the bona fide purchaser exception",
+        "Always protected",
+        "Automatically immune",
+        "Never capable of being sued"
+      ],
+      "answer": "Not protected by the bona fide purchaser exception",
+      "reference": "Specific Relief Act, 1877, S.27"
+    },
+    {
+      "id": 128,
+      "topic": "Specific Performance - S.28",
+      "question": "Gross inadequacy of consideration may prevent specific performance when it is evidence of:",
+      "options": [
+        "Fraud or undue advantage",
+        "A valid trust",
+        "A completed sale",
+        "A lawful tender"
+      ],
+      "answer": "Fraud or undue advantage",
+      "reference": "Specific Relief Act, 1877, S.28(a)"
+    },
+    {
+      "id": 129,
+      "topic": "Specific Performance - S.28",
+      "question": "Under section 28, assent obtained by innocent misrepresentation may:",
+      "options": [
+        "Bar specific performance",
+        "Always require specific performance",
+        "Create a trust",
+        "Create a criminal offence"
+      ],
+      "answer": "Bar specific performance",
+      "reference": "Specific Relief Act, 1877, S.28(b)"
+    },
+    {
+      "id": 130,
+      "topic": "Specific Performance - S.28",
+      "question": "Concealment or circumvention in obtaining assent to a contract may result in:",
+      "options": [
+        "Specific performance being refused",
+        "Automatic enforcement",
+        "Automatic registration",
+        "Automatic cancellation"
+      ],
+      "answer": "Specific performance being refused",
+      "reference": "Specific Relief Act, 1877, S.28(b)"
+    },
+    {
+      "id": 131,
+      "topic": "Specific Performance - S.28",
+      "question": "A promise by the party seeking performance that has not been substantially fulfilled may be relevant to:",
+      "options": [
+        "Refusing specific performance against the other party",
+        "Creating a new contract",
+        "Granting a criminal decree",
+        "Appointing a receiver automatically"
+      ],
+      "answer": "Refusing specific performance against the other party",
+      "reference": "Specific Relief Act, 1877, S.28(b)"
+    },
+    {
+      "id": 132,
+      "topic": "Specific Performance - S.28",
+      "question": "Assent obtained by mistake of fact, misapprehension or surprise may constitute:",
+      "options": [
+        "A bar to specific performance",
+        "A mandatory obligation to perform",
+        "A criminal offence",
+        "A completed conveyance"
+      ],
+      "answer": "A bar to specific performance",
+      "reference": "Specific Relief Act, 1877, S.28(c)"
+    },
+    {
+      "id": 133,
+      "topic": "Specific Performance - S.29",
+      "question": "Dismissal of a suit for specific performance bars a subsequent suit for:",
+      "options": [
+        "Compensation for breach of that contract",
+        "Recovery of unrelated property",
+        "Criminal prosecution",
+        "An unrelated declaration"
+      ],
+      "answer": "Compensation for breach of that contract",
+      "reference": "Specific Relief Act, 1877, S.29"
+    },
+    {
+      "id": 134,
+      "topic": "Awards - S.30",
+      "question": "Chapter II provisions relating to contracts apply, mutatis mutandis, to:",
+      "options": [
+        "Awards",
+        "Criminal judgments",
+        "Tax assessments",
+        "Police reports"
+      ],
+      "answer": "Awards",
+      "reference": "Specific Relief Act, 1877, S.30"
+    },
+    {
+      "id": 135,
+      "topic": "Rectification - S.31",
+      "question": "Rectification is available where, through fraud or mutual mistake, an instrument fails to:",
+      "options": [
+        "Express the real intention of the parties",
+        "Contain a seal",
+        "Contain consideration",
+        "Be notarized"
+      ],
+      "answer": "Express the real intention of the parties",
+      "reference": "Specific Relief Act, 1877, S.31"
+    },
+    {
+      "id": 136,
+      "topic": "Rectification - S.31",
+      "question": "A suit for rectification may be instituted by:",
+      "options": [
+        "Either party or his representative in interest",
+        "Only the defendant",
+        "Only a witness",
+        "Only the Registrar"
+      ],
+      "answer": "Either party or his representative in interest",
+      "reference": "Specific Relief Act, 1877, S.31"
+    },
+    {
+      "id": 137,
+      "topic": "Rectification - S.31",
+      "question": "Rectification cannot prejudice rights acquired by third persons:",
+      "options": [
+        "In good faith and for value",
+        "In bad faith",
+        "Without consideration",
+        "After a decree"
+      ],
+      "answer": "In good faith and for value",
+      "reference": "Specific Relief Act, 1877, S.31"
+    },
+    {
+      "id": 138,
+      "topic": "Rectification - S.32",
+      "question": "Before rectifying a written contract, the Court must be satisfied that the parties intended to make:",
+      "options": [
+        "An equitable and conscientious agreement",
+        "A criminal agreement",
+        "An oral agreement",
+        "An agreement without consideration"
+      ],
+      "answer": "An equitable and conscientious agreement",
+      "reference": "Specific Relief Act, 1877, S.32"
+    },
+    {
+      "id": 139,
+      "topic": "Rectification - S.33",
+      "question": "In rectifying an instrument, the Court may ascertain:",
+      "options": [
+        "The true intention and intended legal consequences",
+        "Only the literal wording",
+        "Only the plaintiff's intention",
+        "Only the defendant's intention"
+      ],
+      "answer": "The true intention and intended legal consequences",
+      "reference": "Specific Relief Act, 1877, S.33"
+    },
+    {
+      "id": 140,
+      "topic": "Rectification - S.34",
+      "question": "A plaintiff may seek rectification and specific performance in the same suit when:",
+      "options": [
+        "The plaint contains the appropriate prayer",
+        "The defendant consents orally",
+        "The Registrar directs it",
+        "The contract is criminal"
+      ],
+      "answer": "The plaint contains the appropriate prayer",
+      "reference": "Specific Relief Act, 1877, S.34"
+    },
+    {
+      "id": 141,
+      "topic": "Rescission - S.35",
+      "question": "A person interested in a contract in writing may sue for rescission where the contract is:",
+      "options": [
+        "Voidable or terminable by him",
+        "Fully performed",
+        "A criminal judgment",
+        "Already cancelled"
+      ],
+      "answer": "Voidable or terminable by him",
+      "reference": "Specific Relief Act, 1877, S.35(a)"
+    },
+    {
+      "id": 142,
+      "topic": "Rescission - S.35",
+      "question": "An unlawful contract may be rescinded where its unlawfulness is:",
+      "options": [
+        "Not apparent on its face and the defendant is more to blame",
+        "Apparent on its face in every case",
+        "Caused only by the plaintiff",
+        "Approved by the plaintiff"
+      ],
+      "answer": "Not apparent on its face and the defendant is more to blame",
+      "reference": "Specific Relief Act, 1877, S.35(b)"
+    },
+    {
+      "id": 143,
+      "topic": "Rescission - S.35",
+      "question": "After a decree for specific performance of a sale contract, failure by the purchaser to pay the purchase-money within the period fixed may lead to:",
+      "options": [
+        "Rescission of the contract",
+        "Automatic renewal",
+        "Automatic transfer to the Government",
+        "Criminal conviction"
+      ],
+      "answer": "Rescission of the contract",
+      "reference": "Specific Relief Act, 1877, S.35(c)"
+    },
+    {
+      "id": 144,
+      "topic": "Rescission - S.35",
+      "question": "When a purchaser or lessee is in possession under a contract that is rescinded, the Court may require him to pay:",
+      "options": [
+        "Rents and profits received during wrongful possession",
+        "Only court fees",
+        "Only stamp duty",
+        "Only nominal damages"
+      ],
+      "answer": "Rents and profits received during wrongful possession",
+      "reference": "Specific Relief Act, 1877, S.35"
+    },
+    {
+      "id": 145,
+      "topic": "Rescission - S.36",
+      "question": "Rescission for mere mistake should generally not be adjudged where the other party cannot be restored to:",
+      "options": [
+        "Substantially the same position as if the contract had not been made",
+        "A better position",
+        "A position selected by the plaintiff",
+        "A position selected by the defendant"
+      ],
+      "answer": "Substantially the same position as if the contract had not been made",
+      "reference": "Specific Relief Act, 1877, S.36"
+    },
+    {
+      "id": 146,
+      "topic": "Rescission - S.37",
+      "question": "A plaintiff suing for specific performance may include an alternative prayer for:",
+      "options": [
+        "Rescission",
+        "Criminal punishment",
+        "Imprisonment",
+        "Tax exemption"
+      ],
+      "answer": "Rescission",
+      "reference": "Specific Relief Act, 1877, S.37"
+    },
+    {
+      "id": 147,
+      "topic": "Rescission - S.37",
+      "question": "Where a contract has been rescinded, the Court may require the party receiving relief to make:",
+      "options": [
+        "Compensation as justice may require",
+        "A criminal confession",
+        "A new contract",
+        "A constitutional petition"
+      ],
+      "answer": "Compensation as justice may require",
+      "reference": "Specific Relief Act, 1877, S.38"
+    },
+    {
+      "id": 148,
+      "topic": "Cancellation - S.39",
+      "question": "A person may seek cancellation of a written instrument when it is:",
+      "options": [
+        "Void or voidable against him",
+        "Always valid",
+        "Fully performed",
+        "Merely inconvenient"
+      ],
+      "answer": "Void or voidable against him",
+      "reference": "Specific Relief Act, 1877, S.39"
+    },
+    {
+      "id": 149,
+      "topic": "Cancellation - S.39",
+      "question": "The plaintiff seeking cancellation must have reasonable apprehension that leaving the instrument outstanding may cause:",
+      "options": [
+        "Serious injury",
+        "Minor inconvenience only",
+        "No injury",
+        "Automatic criminal liability"
+      ],
+      "answer": "Serious injury",
+      "reference": "Specific Relief Act, 1877, S.39"
+    },
+    {
+      "id": 150,
+      "topic": "Cancellation - S.39",
+      "question": "When an instrument has been registered, the Court adjudging cancellation must send a copy of its decree to:",
+      "options": [
+        "The officer in whose office the instrument has been registered",
+        "The police station",
+        "The defendant's employer",
+        "The tax authority only"
+      ],
+      "answer": "The officer in whose office the instrument has been registered",
+      "reference": "Specific Relief Act, 1877, S.39"
+    },
+    {
+      "id": 151,
+      "topic": "Cancellation - S.40",
+      "question": "Where an instrument evidences different rights or obligations, the Court may:",
+      "options": [
+        "Cancel it in part and allow the remainder to stand",
+        "Always cancel the whole",
+        "Never cancel any part",
+        "Convert it into an award"
+      ],
+      "answer": "Cancel it in part and allow the remainder to stand",
+      "reference": "Specific Relief Act, 1877, S.40"
+    },
+    {
+      "id": 152,
+      "topic": "Cancellation - S.41",
+      "question": "When cancellation is adjudged, the Court may require the party receiving relief to make:",
+      "options": [
+        "Compensation as justice may require",
+        "A criminal confession",
+        "A new deed in every case",
+        "A payment to the police"
+      ],
+      "answer": "Compensation as justice may require",
+      "reference": "Specific Relief Act, 1877, S.41"
+    },
+    {
+      "id": 153,
+      "topic": "Declaratory Decree - S.42",
+      "question": "A person entitled to a legal character or right as to property may sue when another person:",
+      "options": [
+        "Denies or is interested to deny that title",
+        "Has never disputed the title",
+        "Is unrelated to the property",
+        "Is necessarily a Government officer"
+      ],
+      "answer": "Denies or is interested to deny that title",
+      "reference": "Specific Relief Act, 1877, S.42"
+    },
+    {
+      "id": 154,
+      "topic": "Declaratory Decree - S.42",
+      "question": "A suit for a declaration under section 42 is:",
+      "options": [
+        "Discretionary",
+        "Automatic",
+        "Criminal",
+        "Administrative"
+      ],
+      "answer": "Discretionary",
+      "reference": "Specific Relief Act, 1877, S.42"
+    },
+    {
+      "id": 155,
+      "topic": "Declaratory Decree - S.42",
+      "question": "A plaintiff seeking only a declaration cannot ordinarily obtain it where he is able to seek:",
+      "options": [
+        "Further relief than a mere declaration but omits to do so",
+        "Court fees",
+        "A criminal conviction",
+        "Arbitration"
+      ],
+      "answer": "Further relief than a mere declaration but omits to do so",
+      "reference": "Specific Relief Act, 1877, S.42 proviso"
+    },
+    {
+      "id": 156,
+      "topic": "Declaratory Decree - S.42",
+      "question": "The proviso to section 42 is primarily intended to prevent:",
+      "options": [
+        "A plaintiff from seeking a bare declaration when further relief is available but omitted",
+        "All declaratory suits",
+        "All property suits",
+        "All injunctions"
+      ],
+      "answer": "A plaintiff from seeking a bare declaration when further relief is available but omitted",
+      "reference": "Specific Relief Act, 1877, S.42 proviso"
+    },
+    {
+      "id": 157,
+      "topic": "Declaratory Decree - S.43",
+      "question": "A declaration under Chapter VI is binding upon:",
+      "options": [
+        "The parties to the suit and persons claiming through them",
+        "Every person in Bangladesh",
+        "Only Government officers",
+        "Only witnesses"
+      ],
+      "answer": "The parties to the suit and persons claiming through them",
+      "reference": "Specific Relief Act, 1877, S.43"
+    },
+    {
+      "id": 158,
+      "topic": "Receivers - S.44",
+      "question": "Appointment of a receiver pending a suit is:",
+      "options": [
+        "Discretionary",
+        "Automatic",
+        "Mandatory in every property suit",
+        "A criminal remedy"
+      ],
+      "answer": "Discretionary",
+      "reference": "Specific Relief Act, 1877, S.44"
+    },
+    {
+      "id": 159,
+      "topic": "Receivers - S.44",
+      "question": "The provisions governing the appointment, rights, powers, duties and liabilities of a receiver are found in:",
+      "options": [
+        "The Code of Civil Procedure",
+        "The Penal Code",
+        "The Contract Act",
+        "The Evidence Act"
+      ],
+      "answer": "The Code of Civil Procedure",
+      "reference": "Specific Relief Act, 1877, S.44"
+    },
+    {
+      "id": 160,
+      "topic": "Preventive Relief - S.52",
+      "question": "Preventive relief is granted by way of:",
+      "options": [
+        "Temporary or perpetual injunction",
+        "Compensation only",
+        "Rescission only",
+        "Cancellation only"
+      ],
+      "answer": "Temporary or perpetual injunction",
+      "reference": "Specific Relief Act, 1877, S.52"
+    },
+    {
+      "id": 161,
+      "topic": "Temporary Injunction - S.53",
+      "question": "A temporary injunction continues until:",
+      "options": [
+        "A specified time or further order of the Court",
+        "The plaintiff dies",
+        "The defendant pays damages",
+        "The Registrar cancels it"
+      ],
+      "answer": "A specified time or further order of the Court",
+      "reference": "Specific Relief Act, 1877, S.53"
+    },
+    {
+      "id": 162,
+      "topic": "Temporary Injunction - S.53",
+      "question": "Temporary injunctions may be granted:",
+      "options": [
+        "At any period of a suit",
+        "Only after final judgment",
+        "Only before filing the suit",
+        "Only after appeal"
+      ],
+      "answer": "At any period of a suit",
+      "reference": "Specific Relief Act, 1877, S.53"
+    },
+    {
+      "id": 163,
+      "topic": "Temporary Injunction - S.53",
+      "question": "Temporary injunctions are regulated by:",
+      "options": [
+        "The Code of Civil Procedure",
+        "The Penal Code",
+        "The Registration Act",
+        "The Limitation Act"
+      ],
+      "answer": "The Code of Civil Procedure",
+      "reference": "Specific Relief Act, 1877, S.53"
+    },
+    {
+      "id": 164,
+      "topic": "Perpetual Injunction - S.53",
+      "question": "A perpetual injunction can be granted only by:",
+      "options": [
+        "A decree made at the hearing and upon the merits of the suit",
+        "An interim administrative order",
+        "The police",
+        "The Registrar"
+      ],
+      "answer": "A decree made at the hearing and upon the merits of the suit",
+      "reference": "Specific Relief Act, 1877, S.53"
+    },
+    {
+      "id": 165,
+      "topic": "Perpetual Injunction - S.54",
+      "question": "A perpetual injunction may be granted to prevent breach of:",
+      "options": [
+        "An obligation existing in favour of the applicant",
+        "Any moral duty",
+        "Any political promise",
+        "Any criminal sentence"
+      ],
+      "answer": "An obligation existing in favour of the applicant",
+      "reference": "Specific Relief Act, 1877, S.54"
+    },
+    {
+      "id": 166,
+      "topic": "Perpetual Injunction - S.54",
+      "question": "The obligation protected by a perpetual injunction may arise:",
+      "options": [
+        "Expressly or by implication",
+        "Only expressly",
+        "Only orally",
+        "Only by statute"
+      ],
+      "answer": "Expressly or by implication",
+      "reference": "Specific Relief Act, 1877, S.54"
+    },
+    {
+      "id": 167,
+      "topic": "Perpetual Injunction - S.54",
+      "question": "Where the obligation arises from contract, the Court is guided by:",
+      "options": [
+        "The rules and provisions in Chapter II of the Act",
+        "Only criminal law",
+        "Only registration law",
+        "Only constitutional law"
+      ],
+      "answer": "The rules and provisions in Chapter II of the Act",
+      "reference": "Specific Relief Act, 1877, S.54"
+    },
+    {
+      "id": 168,
+      "topic": "Perpetual Injunction - S.54",
+      "question": "A perpetual injunction may be granted where the defendant is:",
+      "options": [
+        "Trustee of the property for the plaintiff",
+        "A stranger to the property",
+        "A police officer",
+        "A witness"
+      ],
+      "answer": "Trustee of the property for the plaintiff",
+      "reference": "Specific Relief Act, 1877, S.54(a)"
+    },
+    {
+      "id": 169,
+      "topic": "Perpetual Injunction - S.54",
+      "question": "A perpetual injunction may be granted where there is no standard for ascertaining:",
+      "options": [
+        "The actual damage caused or likely to be caused",
+        "The identity of the defendant",
+        "The court fee",
+        "The contract price"
+      ],
+      "answer": "The actual damage caused or likely to be caused",
+      "reference": "Specific Relief Act, 1877, S.54(b)"
+    },
+    {
+      "id": 170,
+      "topic": "Perpetual Injunction - S.54",
+      "question": "A perpetual injunction may be granted where pecuniary compensation:",
+      "options": [
+        "Would not afford adequate relief",
+        "Would always be adequate",
+        "Has already been paid",
+        "Is prohibited by contract"
+      ],
+      "answer": "Would not afford adequate relief",
+      "reference": "Specific Relief Act, 1877, S.54(c)"
+    },
+    {
+      "id": 171,
+      "topic": "Perpetual Injunction - S.54",
+      "question": "A perpetual injunction may be granted where it is probable that pecuniary compensation:",
+      "options": [
+        "Cannot be obtained for the invasion",
+        "Has already been paid",
+        "Will always be adequate",
+        "Is greater than the property value"
+      ],
+      "answer": "Cannot be obtained for the invasion",
+      "reference": "Specific Relief Act, 1877, S.54(d)"
+    },
+    {
+      "id": 172,
+      "topic": "Perpetual Injunction - S.54",
+      "question": "A perpetual injunction may be necessary to prevent:",
+      "options": [
+        "A multiplicity of judicial proceedings",
+        "Payment of court fees",
+        "Registration of documents",
+        "Execution of every decree"
+      ],
+      "answer": "A multiplicity of judicial proceedings",
+      "reference": "Specific Relief Act, 1877, S.54(e)"
+    },
+    {
+      "id": 173,
+      "topic": "Perpetual Injunction - S.54",
+      "question": "For purposes of section 54, a trademark is treated as:",
+      "options": [
+        "Property",
+        "A contract",
+        "A debt",
+        "A criminal proceeding"
+      ],
+      "answer": "Property",
+      "reference": "Specific Relief Act, 1877, S.54, Explanation"
+    },
+    {
+      "id": 174,
+      "topic": "Perpetual Injunction - S.54",
+      "question": "A landlord may obtain an injunction to restrain a tenant from violating a contractual prohibition against:",
+      "options": [
+        "Digging sand or gravel from the leased land",
+        "Paying rent",
+        "Entering the property",
+        "Using the property lawfully"
+      ],
+      "answer": "Digging sand or gravel from the leased land",
+      "reference": "Specific Relief Act, 1877, S.54, illustration"
+    },
+    {
+      "id": 175,
+      "topic": "Perpetual Injunction - S.54",
+      "question": "A person may obtain an injunction where another improperly uses his:",
+      "options": [
+        "Trademark, provided his own use is honest",
+        "Criminal record",
+        "Tax number",
+        "Passport"
+      ],
+      "answer": "Trademark, provided his own use is honest",
+      "reference": "Specific Relief Act, 1877, S.54, illustration"
+    },
+    {
+      "id": 176,
+      "topic": "Perpetual Injunction - S.54",
+      "question": "A trader who falsely holds another person out as his partner may be restrained by:",
+      "options": [
+        "Injunction",
+        "Specific possession",
+        "Rescission",
+        "Cancellation only"
+      ],
+      "answer": "Injunction",
+      "reference": "Specific Relief Act, 1877, S.54, illustration"
+    },
+    {
+      "id": 177,
+      "topic": "Perpetual Injunction - S.54",
+      "question": "A person who possesses a valuable secret manufacturing process may seek an injunction against:",
+      "options": [
+        "Disclosure of the secret process",
+        "Payment of rent",
+        "Registration of the process",
+        "Purchase of property"
+      ],
+      "answer": "Disclosure of the secret process",
+      "reference": "Specific Relief Act, 1877, S.54, illustration"
+    },
+    {
+      "id": 178,
+      "topic": "Mandatory Injunction - S.55",
+      "question": "A mandatory injunction is granted when it is necessary to compel:",
+      "options": [
+        "Performance of certain acts which the Court is capable of enforcing",
+        "Payment of every debt",
+        "Criminal punishment",
+        "Registration of every document"
+      ],
+      "answer": "Performance of certain acts which the Court is capable of enforcing",
+      "reference": "Specific Relief Act, 1877, S.55"
+    },
+    {
+      "id": 179,
+      "topic": "Mandatory Injunction - S.55",
+      "question": "The grant of a mandatory injunction under section 55 is:",
+      "options": [
+        "Discretionary",
+        "Automatic",
+        "A matter of criminal jurisdiction",
+        "Compulsory in every case"
+      ],
+      "answer": "Discretionary",
+      "reference": "Specific Relief Act, 1877, S.55"
+    },
+    {
+      "id": 180,
+      "topic": "Mandatory Injunction - S.55",
+      "question": "A mandatory injunction may both restrain a breach and:",
+      "options": [
+        "Compel performance of requisite acts",
+        "Award imprisonment",
+        "Cancel every related document",
+        "Transfer ownership automatically"
+      ],
+      "answer": "Compel performance of requisite acts",
+      "reference": "Specific Relief Act, 1877, S.55"
+    },
+    {
+      "id": 181,
+      "topic": "Mandatory Injunction - S.55",
+      "question": "If new buildings obstruct a right to light, a mandatory injunction may require:",
+      "options": [
+        "Removal of so much of the building as causes the obstruction",
+        "Demolition of the entire city",
+        "Payment of criminal fine",
+        "Transfer of the land"
+      ],
+      "answer": "Removal of so much of the building as causes the obstruction",
+      "reference": "Specific Relief Act, 1877, S.55 illustration"
+    },
+    {
+      "id": 182,
+      "topic": "Mandatory Injunction - S.55",
+      "question": "If eaves of a house project over another person's land, the Court may order:",
+      "options": [
+        "The projecting portion to be pulled down",
+        "The whole house to be sold",
+        "The land to be transferred",
+        "The owner to be imprisoned"
+      ],
+      "answer": "The projecting portion to be pulled down",
+      "reference": "Specific Relief Act, 1877, S.55 illustration"
+    },
+    {
+      "id": 183,
+      "topic": "Mandatory Injunction - S.55",
+      "question": "A threatened publication of statements punishable under Chapter XXI of the Penal Code may be restrained by:",
+      "options": [
+        "Injunction",
+        "Specific possession",
+        "Rescission",
+        "Rectification"
+      ],
+      "answer": "Injunction",
+      "reference": "Specific Relief Act, 1877, S.55 illustration"
+    },
+    {
+      "id": 184,
+      "topic": "Mandatory Injunction - S.55",
+      "question": "A medical adviser's threat to publish a patient's confidential written communications may be restrained by:",
+      "options": [
+        "Injunction",
+        "Specific performance of a sale",
+        "Cancellation of title",
+        "Recovery of immovable property"
+      ],
+      "answer": "Injunction",
+      "reference": "Specific Relief Act, 1877, S.55 illustration"
+    },
+    {
+      "id": 185,
+      "topic": "Mandatory Injunction - S.55",
+      "question": "The Court may order copies produced by piracy to be:",
+      "options": [
+        "Given up or destroyed",
+        "Registered",
+        "Sold by auction",
+        "Transferred to the defendant"
+      ],
+      "answer": "Given up or destroyed",
+      "reference": "Specific Relief Act, 1877, S.55 illustration"
+    },
+    {
+      "id": 186,
+      "topic": "Injunction Refused - S.56",
+      "question": "An injunction cannot ordinarily be granted to stay a judicial proceeding already pending at the institution of the suit seeking the injunction, unless:",
+      "options": [
+        "The restraint is necessary to prevent a multiplicity of proceedings",
+        "The plaintiff requests it",
+        "The defendant consents",
+        "The proceeding is inconvenient"
+      ],
+      "answer": "The restraint is necessary to prevent a multiplicity of proceedings",
+      "reference": "Specific Relief Act, 1877, S.56(a)"
+    },
+    {
+      "id": 187,
+      "topic": "Injunction Refused - S.56",
+      "question": "An injunction cannot be granted to stay proceedings in:",
+      "options": [
+        "A Court not subordinate to the Court from which the injunction is sought",
+        "A subordinate court",
+        "The same court",
+        "A civil court only"
+      ],
+      "answer": "A Court not subordinate to the Court from which the injunction is sought",
+      "reference": "Specific Relief Act, 1877, S.56(b)"
+    },
+    {
+      "id": 188,
+      "topic": "Injunction Refused - S.56",
+      "question": "An injunction cannot be granted to restrain persons from applying to:",
+      "options": [
+        "Any legislative body",
+        "A civil court",
+        "A private arbitrator",
+        "A registrar"
+      ],
+      "answer": "Any legislative body",
+      "reference": "Specific Relief Act, 1877, S.56(c)"
+    },
+    {
+      "id": 189,
+      "topic": "Injunction Refused - S.56",
+      "question": "An injunction cannot interfere with the public duties of:",
+      "options": [
+        "Any department of the Government",
+        "A private company",
+        "A tenant",
+        "A trustee"
+      ],
+      "answer": "Any department of the Government",
+      "reference": "Specific Relief Act, 1877, S.56(d)"
+    },
+    {
+      "id": 190,
+      "topic": "Injunction Refused - S.56",
+      "question": "An injunction cannot interfere with:",
+      "options": [
+        "The sovereign acts of a foreign Government",
+        "A private contract",
+        "A private nuisance",
+        "A trademark"
+      ],
+      "answer": "The sovereign acts of a foreign Government",
+      "reference": "Specific Relief Act, 1877, S.56(d)"
+    },
+    {
+      "id": 191,
+      "topic": "Injunction Refused - S.56",
+      "question": "An injunction cannot be granted to stay proceedings in:",
+      "options": [
+        "Any criminal matter",
+        "Any civil matter",
+        "Any arbitration",
+        "Any property dispute"
+      ],
+      "answer": "Any criminal matter",
+      "reference": "Specific Relief Act, 1877, S.56(e)"
+    },
+    {
+      "id": 192,
+      "topic": "Injunction Refused - S.56",
+      "question": "An injunction cannot be granted to prevent breach of a contract whose performance:",
+      "options": [
+        "Would not be specifically enforced",
+        "Would be specifically enforced",
+        "Has already occurred",
+        "Is registered"
+      ],
+      "answer": "Would not be specifically enforced",
+      "reference": "Specific Relief Act, 1877, S.56(f)"
+    },
+    {
+      "id": 193,
+      "topic": "Injunction Refused - S.56",
+      "question": "On the ground of nuisance, an injunction cannot be granted to prevent an act where it is:",
+      "options": [
+        "Not reasonably clear that the act will be a nuisance",
+        "Certain to be a nuisance",
+        "Already declared a nuisance",
+        "Admitted to be a nuisance"
+      ],
+      "answer": "Not reasonably clear that the act will be a nuisance",
+      "reference": "Specific Relief Act, 1877, S.56(g)"
+    },
+    {
+      "id": 194,
+      "topic": "Injunction Refused - S.56",
+      "question": "An injunction cannot be granted to prevent a continuing breach where the applicant has:",
+      "options": [
+        "Acquiesced in the breach",
+        "Objected immediately",
+        "Suffered damage",
+        "Filed a suit promptly"
+      ],
+      "answer": "Acquiesced in the breach",
+      "reference": "Specific Relief Act, 1877, S.56(h)"
+    },
+    {
+      "id": 195,
+      "topic": "Injunction Refused - S.56",
+      "question": "An injunction cannot be granted when equally efficacious relief can certainly be obtained by:",
+      "options": [
+        "Any other usual mode of proceeding except in cases of breach of trust",
+        "Criminal prosecution only",
+        "A private agreement",
+        "Government notification"
+      ],
+      "answer": "Any other usual mode of proceeding except in cases of breach of trust",
+      "reference": "Specific Relief Act, 1877, S.56(i)"
+    },
+    {
+      "id": 196,
+      "topic": "Injunction Refused - S.56",
+      "question": "An injunction cannot generally be granted when the conduct of the applicant or his agents has been such as to:",
+      "options": [
+        "Disentitle him to the assistance of the Court",
+        "Increase his damages",
+        "Create a valid contract",
+        "Establish title automatically"
+      ],
+      "answer": "Disentitle him to the assistance of the Court",
+      "reference": "Specific Relief Act, 1877, S.56(j)"
+    },
+    {
+      "id": 197,
+      "topic": "Injunction Refused - S.56",
+      "question": "An injunction cannot be granted when the applicant has:",
+      "options": [
+        "No personal interest in the matter",
+        "A legal right",
+        "A beneficial interest",
+        "A proprietary interest"
+      ],
+      "answer": "No personal interest in the matter",
+      "reference": "Specific Relief Act, 1877, S.56(k)"
+    },
+    {
+      "id": 198,
+      "topic": "Negative Agreement - S.57",
+      "question": "Section 57 applies where a contract contains an affirmative agreement coupled with:",
+      "options": [
+        "A negative agreement, express or implied",
+        "A criminal agreement",
+        "A tax agreement",
+        "A constitutional obligation"
+      ],
+      "answer": "A negative agreement, express or implied",
+      "reference": "Specific Relief Act, 1877, S.57"
+    },
+    {
+      "id": 199,
+      "topic": "Negative Agreement - S.57",
+      "question": "Even if the Court cannot compel specific performance of the affirmative agreement, it may:",
+      "options": [
+        "Grant an injunction to perform the negative agreement",
+        "Automatically cancel the contract",
+        "Award imprisonment",
+        "Transfer the property"
+      ],
+      "answer": "Grant an injunction to perform the negative agreement",
+      "reference": "Specific Relief Act, 1877, S.57"
+    },
+    {
+      "id": 200,
+      "topic": "Negative Agreement - S.57",
+      "question": "An applicant seeking an injunction under section 57 must not have:",
+      "options": [
+        "Failed to perform the contract so far as it is binding on him",
+        "Paid consideration",
+        "A written contract",
+        "A proprietary interest"
+      ],
+      "answer": "Failed to perform the contract so far as it is binding on him",
+      "reference": "Specific Relief Act, 1877, S.57"
+    },
+      {
+      "id": 201,
+      "topic": "Preliminary - S.1",
+      "question": "The Specific Relief Act, 1877 is:",
+      "options": [
+        "Act No. I of 1877",
+        "Act No. IX of 1908",
+        "Act No. IV of 1882",
+        "Act No. V of 1908"
+      ],
+      "answer": "Act No. I of 1877",
+      "reference": "Specific Relief Act, 1877, S.1"
+    },
+    {
+      "id": 202,
+      "topic": "Preliminary - S.1",
+      "question": "The Specific Relief Act, 1877 extends to:",
+      "options": [
+        "The whole of Bangladesh",
+        "Dhaka only",
+        "All of South Asia",
+        "Specified districts only"
+      ],
+      "answer": "The whole of Bangladesh",
+      "reference": "Specific Relief Act, 1877, S.1"
+    },
+    {
+      "id": 203,
+      "topic": "Interpretation - S.3",
+      "question": "Under section 3, 'obligation' includes:",
+      "options": [
+        "Every duty enforceable by law",
+        "Only contractual duties",
+        "Only statutory duties",
+        "Only fiduciary duties"
+      ],
+      "answer": "Every duty enforceable by law",
+      "reference": "Specific Relief Act, 1877, S.3"
+    },
+    {
+      "id": 204,
+      "topic": "Interpretation - S.3",
+      "question": "Under section 3, 'trust' includes:",
+      "options": [
+        "Every species of express, implied or constructive fiduciary ownership",
+        "Only express trusts",
+        "Only statutory trusts",
+        "Only charitable trusts"
+      ],
+      "answer": "Every species of express, implied or constructive fiduciary ownership",
+      "reference": "Specific Relief Act, 1877, S.3"
+    },
+    {
+      "id": 205,
+      "topic": "Interpretation - S.3",
+      "question": "A 'trustee' under the Act includes a person holding:",
+      "options": [
+        "An express, implied or constructive fiduciary character",
+        "Only legal title",
+        "Only registered title",
+        "Only contractual rights"
+      ],
+      "answer": "An express, implied or constructive fiduciary character",
+      "reference": "Specific Relief Act, 1877, S.3"
+    },
+    {
+      "id": 206,
+      "topic": "Specific Relief - S.5",
+      "question": "Specific relief may be given by taking possession of:",
+      "options": [
+        "Certain property and delivering it to a claimant",
+        "Any property selected by the Court",
+        "Only movable property",
+        "Only Government property"
+      ],
+      "answer": "Certain property and delivering it to a claimant",
+      "reference": "Specific Relief Act, 1877, S.5(a)"
+    },
+    {
+      "id": 207,
+      "topic": "Specific Relief - S.5",
+      "question": "Specific relief may be given by ordering a party to:",
+      "options": [
+        "Do the very act which he is under an obligation to do",
+        "Pay compensation in every case",
+        "Submit to criminal punishment",
+        "Transfer all his property"
+      ],
+      "answer": "Do the very act which he is under an obligation to do",
+      "reference": "Specific Relief Act, 1877, S.5(b)"
+    },
+    {
+      "id": 208,
+      "topic": "Specific Relief - S.5",
+      "question": "Specific relief may be given by preventing a party from:",
+      "options": [
+        "Doing that which he is under an obligation not to do",
+        "Doing anything whatsoever",
+        "Entering any court",
+        "Making any contract"
+      ],
+      "answer": "Doing that which he is under an obligation not to do",
+      "reference": "Specific Relief Act, 1877, S.5(c)"
+    },
+    {
+      "id": 209,
+      "topic": "Specific Relief - S.5",
+      "question": "Determining and declaring the rights of parties otherwise than by an award of compensation is a form of:",
+      "options": [
+        "Specific relief",
+        "Criminal relief",
+        "Preventive detention",
+        "Tax relief"
+      ],
+      "answer": "Specific relief",
+      "reference": "Specific Relief Act, 1877, S.5(d)"
+    },
+    {
+      "id": 210,
+      "topic": "Preventive Relief - S.6",
+      "question": "Specific relief granted under section 5(c) is called:",
+      "options": [
+        "Preventive relief",
+        "Declaratory relief",
+        "Compensatory relief",
+        "Restitutionary relief"
+      ],
+      "answer": "Preventive relief",
+      "reference": "Specific Relief Act, 1877, S.6"
+    },
+    {
+      "id": 211,
+      "topic": "Penal Law - S.7",
+      "question": "Specific relief cannot be granted for the mere purpose of:",
+      "options": [
+        "Enforcing a penal law",
+        "Protecting property",
+        "Enforcing a trust",
+        "Preventing breach of an obligation"
+      ],
+      "answer": "Enforcing a penal law",
+      "reference": "Specific Relief Act, 1877, S.7"
+    },
+    {
+      "id": 212,
+      "topic": "Immovable Property - S.8",
+      "question": "A person entitled to possession of specific immovable property may recover it in the manner prescribed by:",
+      "options": [
+        "The Code of Civil Procedure",
+        "The Penal Code",
+        "The Contract Act",
+        "The Evidence Act"
+      ],
+      "answer": "The Code of Civil Procedure",
+      "reference": "Specific Relief Act, 1877, S.8"
+    },
+    {
+      "id": 213,
+      "topic": "Dispossession - S.9",
+      "question": "Section 9 applies where a person is dispossessed of immovable property:",
+      "options": [
+        "Without consent and otherwise than in due course of law",
+        "With consent",
+        "By a competent decree",
+        "After a lawful transfer"
+      ],
+      "answer": "Without consent and otherwise than in due course of law",
+      "reference": "Specific Relief Act, 1877, S.9"
+    },
+    {
+      "id": 214,
+      "topic": "Dispossession - S.9",
+      "question": "A suit under section 9 may be brought notwithstanding:",
+      "options": [
+        "Any other title that may be set up in the suit",
+        "A criminal conviction",
+        "A registered mortgage",
+        "A Government notification"
+      ],
+      "answer": "Any other title that may be set up in the suit",
+      "reference": "Specific Relief Act, 1877, S.9"
+    },
+    {
+      "id": 215,
+      "topic": "Dispossession - S.9",
+      "question": "Section 9 does not bar a person from suing to:",
+      "options": [
+        "Establish title and recover possession",
+        "Obtain criminal punishment",
+        "Avoid all court fees",
+        "Challenge every decree"
+      ],
+      "answer": "Establish title and recover possession",
+      "reference": "Specific Relief Act, 1877, S.9"
+    },
+    {
+      "id": 216,
+      "topic": "Dispossession - S.9",
+      "question": "A suit under section 9 cannot be brought against:",
+      "options": [
+        "The Government",
+        "A private individual",
+        "A trespasser",
+        "A tenant"
+      ],
+      "answer": "The Government",
+      "reference": "Specific Relief Act, 1877, S.9"
+    },
+    {
+      "id": 217,
+      "topic": "Dispossession - S.9",
+      "question": "From an order or decree passed in a suit under section 9:",
+      "options": [
+        "No appeal lies and no review is allowed",
+        "A first appeal always lies",
+        "A second appeal always lies",
+        "Review is mandatory"
+      ],
+      "answer": "No appeal lies and no review is allowed",
+      "reference": "Specific Relief Act, 1877, S.9"
+    },
+    {
+      "id": 218,
+      "topic": "Movable Property - S.10",
+      "question": "A person entitled to possession of specific movable property may recover it in the manner prescribed by:",
+      "options": [
+        "The Code of Civil Procedure",
+        "The Penal Code",
+        "The Contract Act",
+        "The Registration Act"
+      ],
+      "answer": "The Code of Civil Procedure",
+      "reference": "Specific Relief Act, 1877, S.10"
+    },
+    {
+      "id": 219,
+      "topic": "Movable Property - S.10",
+      "question": "Under section 10, a trustee may sue for possession of property to the beneficial interest in which:",
+      "options": [
+        "The person for whom he is trustee is entitled",
+        "The trustee's creditor is entitled",
+        "The Government is entitled",
+        "A stranger is entitled"
+      ],
+      "answer": "The person for whom he is trustee is entitled",
+      "reference": "Specific Relief Act, 1877, S.10, Explanation 1"
+    },
+    {
+      "id": 220,
+      "topic": "Specific Performance - S.12",
+      "question": "Specific performance under section 12 is granted:",
+      "options": [
+        "In the discretion of the Court",
+        "As an absolute right in every case",
+        "Only by the Government",
+        "Only where damages are impossible"
+      ],
+      "answer": "In the discretion of the Court",
+      "reference": "Specific Relief Act, 1877, S.12"
+    },
+    {
+      "id": 221,
+      "topic": "Specific Performance - S.12",
+      "question": "Specific performance may be granted where the act agreed to be done is wholly or partly in performance of:",
+      "options": [
+        "A trust",
+        "A criminal sentence",
+        "A tax assessment",
+        "A police order"
+      ],
+      "answer": "A trust",
+      "reference": "Specific Relief Act, 1877, S.12(a)"
+    },
+    {
+      "id": 222,
+      "topic": "Specific Performance - S.12",
+      "question": "Specific performance may be granted where there exists no standard for ascertaining:",
+      "options": [
+        "The actual damage caused by non-performance",
+        "The identity of the plaintiff",
+        "The court fee",
+        "The defendant's age"
+      ],
+      "answer": "The actual damage caused by non-performance",
+      "reference": "Specific Relief Act, 1877, S.12(b)"
+    },
+    {
+      "id": 223,
+      "topic": "Specific Performance - S.12",
+      "question": "Specific performance may be granted where pecuniary compensation for non-performance:",
+      "options": [
+        "Would not afford adequate relief",
+        "Would always be adequate",
+        "Has already been paid",
+        "Is forbidden by law"
+      ],
+      "answer": "Would not afford adequate relief",
+      "reference": "Specific Relief Act, 1877, S.12(c)"
+    },
+    {
+      "id": 224,
+      "topic": "Specific Performance - S.12",
+      "question": "Specific performance may be granted where it is probable that pecuniary compensation:",
+      "options": [
+        "Cannot be obtained for non-performance",
+        "Will certainly be obtained",
+        "Has already been awarded",
+        "Is unnecessary by agreement"
+      ],
+      "answer": "Cannot be obtained for non-performance",
+      "reference": "Specific Relief Act, 1877, S.12(d)"
+    },
+    {
+      "id": 225,
+      "topic": "Specific Performance - S.12",
+      "question": "Until the contrary is proved, breach of a contract to transfer immovable property is presumed to be:",
+      "options": [
+        "Not adequately compensable by money",
+        "Always adequately compensable by money",
+        "Void",
+        "Criminal"
+      ],
+      "answer": "Not adequately compensable by money",
+      "reference": "Specific Relief Act, 1877, S.12, Explanation"
+    },
+    {
+      "id": 226,
+      "topic": "Specific Performance - S.12",
+      "question": "Until the contrary is proved, breach of a contract to transfer movable property is presumed to be:",
+      "options": [
+        "Adequately compensable by money",
+        "Not compensable at all",
+        "Void",
+        "A criminal offence"
+      ],
+      "answer": "Adequately compensable by money",
+      "reference": "Specific Relief Act, 1877, S.12, Explanation"
+    },
+    {
+      "id": 227,
+      "topic": "Part Performance - S.14",
+      "question": "If a party cannot perform the whole contract and the unperformed part is small in proportion to the whole value, the Court may:",
+      "options": [
+        "Order specific performance of the performable part and compensation for the deficiency",
+        "Always dismiss the suit",
+        "Automatically rescind the contract",
+        "Order imprisonment"
+      ],
+      "answer": "Order specific performance of the performable part and compensation for the deficiency",
+      "reference": "Specific Relief Act, 1877, S.14"
+    },
+    {
+      "id": 228,
+      "topic": "Part Performance - S.14",
+      "question": "Under section 14, the unperformed part must also:",
+      "options": [
+        "Admit of compensation in money",
+        "Be criminal",
+        "Be impossible to value",
+        "Be larger than the performed part"
+      ],
+      "answer": "Admit of compensation in money",
+      "reference": "Specific Relief Act, 1877, S.14"
+    },
+    {
+      "id": 229,
+      "topic": "Part Performance - S.15",
+      "question": "When a part of a contract cannot be specifically enforced because it is independent and does not form a considerable part of the whole, the Court may:",
+      "options": [
+        "Direct specific performance of the enforceable part",
+        "Always enforce the whole",
+        "Always cancel the whole",
+        "Impose a criminal penalty"
+      ],
+      "answer": "Direct specific performance of the enforceable part",
+      "reference": "Specific Relief Act, 1877, S.15"
+    },
+    {
+      "id": 230,
+      "topic": "Part Performance - S.16",
+      "question": "Where the unperformed part of a contract forms a considerable part of the whole, specific performance may be refused if:",
+      "options": [
+        "It cannot be compensated in money",
+        "The plaintiff requests it",
+        "The contract is written",
+        "The property is immovable"
+      ],
+      "answer": "It cannot be compensated in money",
+      "reference": "Specific Relief Act, 1877, S.16"
+    },
+    {
+      "id": 231,
+      "topic": "Part Performance - S.16",
+      "question": "Where the unperformed part forms a considerable part and can be compensated in money, the Court may:",
+      "options": [
+        "Direct performance of the remainder and award compensation for the deficiency",
+        "Always dismiss the entire claim",
+        "Order criminal punishment",
+        "Automatically rescind the contract"
+      ],
+      "answer": "Direct performance of the remainder and award compensation for the deficiency",
+      "reference": "Specific Relief Act, 1877, S.16"
+    },
+    {
+      "id": 232,
+      "topic": "Independent Part - S.17",
+      "question": "A party who has failed to perform a substantial part of a contract, or whose failure is considerable, cannot ordinarily obtain specific performance of:",
+      "options": [
+        "The remaining part",
+        "Only the failed part",
+        "An unrelated contract",
+        "A criminal obligation"
+      ],
+      "answer": "The remaining part",
+      "reference": "Specific Relief Act, 1877, S.17"
+    },
+    {
+      "id": 233,
+      "topic": "Separate Contract - S.18",
+      "question": "When a contract contains an independent provision for the performance of a separate act, the Court may:",
+      "options": [
+        "Enforce the independent provision separately",
+        "Always enforce every provision together",
+        "Always cancel the contract",
+        "Ignore the provision completely"
+      ],
+      "answer": "Enforce the independent provision separately",
+      "reference": "Specific Relief Act, 1877, S.18"
+    },
+    {
+      "id": 234,
+      "topic": "Compensation - S.19",
+      "question": "A person suing for specific performance may also ask for compensation:",
+      "options": [
+        "In addition to or in substitution for specific performance",
+        "Only after a criminal case",
+        "Only if the defendant agrees",
+        "Never"
+      ],
+      "answer": "In addition to or in substitution for specific performance",
+      "reference": "Specific Relief Act, 1877, S.19"
+    },
+    {
+      "id": 235,
+      "topic": "Compensation - S.19",
+      "question": "If specific performance is refused but the Court finds a valid contract breached by the defendant and the plaintiff entitled to compensation, the Court:",
+      "options": [
+        "Shall award compensation accordingly",
+        "Must dismiss the suit completely",
+        "Must imprison the defendant",
+        "Must cancel the contract"
+      ],
+      "answer": "Shall award compensation accordingly",
+      "reference": "Specific Relief Act, 1877, S.19"
+    },
+    {
+      "id": 236,
+      "topic": "Compensation - S.19",
+      "question": "The fact that a contract has become incapable of specific performance:",
+      "options": [
+        "Does not preclude compensation under section 19",
+        "Automatically extinguishes every remedy",
+        "Automatically creates a criminal case",
+        "Bars all damages"
+      ],
+      "answer": "Does not preclude compensation under section 19",
+      "reference": "Specific Relief Act, 1877, S.19"
+    },
+    {
+      "id": 237,
+      "topic": "Compensation - S.19",
+      "question": "A contract for sale of a patent becomes incapable of specific performance because the patent expires before hearing. The Court may:",
+      "options": [
+        "Award compensation for non-performance",
+        "Order renewal of the patent",
+        "Order criminal punishment",
+        "Order specific performance of the expired patent"
+      ],
+      "answer": "Award compensation for non-performance",
+      "reference": "Specific Relief Act, 1877, S.19"
+    },
+    {
+      "id": 238,
+      "topic": "Who May Obtain - S.23",
+      "question": "A representative in interest cannot ordinarily obtain specific performance where the contract makes the personal:",
+      "options": [
+        "Learning, skill, solvency or personal quality of the original party a material ingredient",
+        "Age of the witness relevant",
+        "Location of the property irrelevant",
+        "Court fee a condition"
+      ],
+      "answer": "Learning, skill, solvency or personal quality of the original party a material ingredient",
+      "reference": "Specific Relief Act, 1877, S.23(b)"
+    },
+    {
+      "id": 239,
+      "topic": "Who May Obtain - S.23",
+      "question": "A representative in interest may be barred from specific performance where the contract provides that:",
+      "options": [
+        "The interest shall not be assigned",
+        "The price shall be paid",
+        "The property is immovable",
+        "The contract is written"
+      ],
+      "answer": "The interest shall not be assigned",
+      "reference": "Specific Relief Act, 1877, S.23(b)"
+    },
+    {
+      "id": 240,
+      "topic": "Who May Obtain - S.23",
+      "question": "A beneficiary under a compromise of doubtful rights between members of the same family may:",
+      "options": [
+        "Obtain specific performance",
+        "Never enforce it",
+        "Only seek criminal relief",
+        "Only seek a declaration"
+      ],
+      "answer": "Obtain specific performance",
+      "reference": "Specific Relief Act, 1877, S.23(c)"
+    },
+    {
+      "id": 241,
+      "topic": "Personal Bars - S.24",
+      "question": "Specific performance cannot be enforced in favour of a person who could not:",
+      "options": [
+        "Recover compensation for the breach",
+        "File any civil suit",
+        "Own property",
+        "Enter a contract"
+      ],
+      "answer": "Recover compensation for the breach",
+      "reference": "Specific Relief Act, 1877, S.24(a)"
+    },
+    {
+      "id": 242,
+      "topic": "Personal Bars - S.24",
+      "question": "A person who becomes incapable of performing an essential term on his part may be:",
+      "options": [
+        "Barred from specific performance",
+        "Automatically entitled to performance",
+        "Automatically entitled to cancellation",
+        "Automatically entitled to possession"
+      ],
+      "answer": "Barred from specific performance",
+      "reference": "Specific Relief Act, 1877, S.24"
+    },
+    {
+      "id": 243,
+      "topic": "Personal Bars - S.24",
+      "question": "A plaintiff who acts in fraud of the contract may:",
+      "options": [
+        "Be denied specific performance",
+        "Obtain specific performance automatically",
+        "Obtain a mandatory injunction automatically",
+        "Obtain a declaration automatically"
+      ],
+      "answer": "Be denied specific performance",
+      "reference": "Specific Relief Act, 1877, S.24"
+    },
+    {
+      "id": 244,
+      "topic": "Personal Bars - S.24",
+      "question": "A plaintiff who wilfully acts at variance with the contract may be:",
+      "options": [
+        "Barred from specific performance",
+        "Automatically awarded compensation",
+        "Automatically awarded possession",
+        "Automatically granted rescission"
+      ],
+      "answer": "Barred from specific performance",
+      "reference": "Specific Relief Act, 1877, S.24"
+    },
+    {
+      "id": 245,
+      "topic": "Personal Bars - S.24",
+      "question": "A plaintiff who fails to prove readiness and willingness to perform essential terms may:",
+      "options": [
+        "Be denied specific performance",
+        "Always obtain it",
+        "Obtain it as a matter of right",
+        "Obtain cancellation automatically"
+      ],
+      "answer": "Be denied specific performance",
+      "reference": "Specific Relief Act, 1877, S.24"
+    },
+    {
+      "id": 246,
+      "topic": "Variation - S.25",
+      "question": "Specific performance with variation may be granted where the variation:",
+      "options": [
+        "Does not materially alter the character of the contract",
+        "Completely changes its nature",
+        "Eliminates all obligations",
+        "Creates a new criminal offence"
+      ],
+      "answer": "Does not materially alter the character of the contract",
+      "reference": "Specific Relief Act, 1877, S.25"
+    },
+    {
+      "id": 247,
+      "topic": "Rectification - S.31",
+      "question": "Rectification is concerned with an instrument that, because of fraud or mutual mistake:",
+      "options": [
+        "Does not truly express the intention of the parties",
+        "Has not been registered",
+        "Has no stamp",
+        "Contains a lawful term"
+      ],
+      "answer": "Does not truly express the intention of the parties",
+      "reference": "Specific Relief Act, 1877, S.31"
+    },
+    {
+      "id": 248,
+      "topic": "Rectification - S.31",
+      "question": "In a rectification suit, the Court must ascertain:",
+      "options": [
+        "The real intention of the parties in executing the instrument",
+        "Only the plaintiff's intention",
+        "Only the defendant's intention",
+        "The market value"
+      ],
+      "answer": "The real intention of the parties in executing the instrument",
+      "reference": "Specific Relief Act, 1877, S.31"
+    },
+    {
+      "id": 249,
+      "topic": "Rectification - S.31",
+      "question": "Rectification cannot prejudice rights acquired by third persons:",
+      "options": [
+        "In good faith and for value",
+        "In bad faith",
+        "Without consideration",
+        "With notice of the fraud"
+      ],
+      "answer": "In good faith and for value",
+      "reference": "Specific Relief Act, 1877, S.31"
+    },
+    {
+      "id": 250,
+      "topic": "Rectification - S.34",
+      "question": "When a contract is rectified, the Court may direct its specific performance if:",
+      "options": [
+        "The plaintiff has prayed for specific performance",
+        "The defendant is absent",
+        "The contract is oral",
+        "The property is movable"
+      ],
+      "answer": "The plaintiff has prayed for specific performance",
+      "reference": "Specific Relief Act, 1877, S.34"
+    },
+    {
+      "id": 251,
+      "topic": "Rescission - S.35",
+      "question": "A person interested in a written contract may sue for rescission when the contract is:",
+      "options": [
+        "Voidable or terminable by the plaintiff",
+        "Fully performed",
+        "Always valid",
+        "Merely inconvenient"
+      ],
+      "answer": "Voidable or terminable by the plaintiff",
+      "reference": "Specific Relief Act, 1877, S.35(a)"
+    },
+    {
+      "id": 252,
+      "topic": "Rescission - S.35",
+      "question": "An unlawful contract may be rescinded under section 35 where the cause is not apparent on its face and:",
+      "options": [
+        "The defendant is more to blame than the plaintiff",
+        "The plaintiff is more to blame",
+        "Both parties are equally innocent",
+        "The Government objects"
+      ],
+      "answer": "The defendant is more to blame than the plaintiff",
+      "reference": "Specific Relief Act, 1877, S.35(b)"
+    },
+    {
+      "id": 253,
+      "topic": "Rescission - S.35",
+      "question": "After a decree for specific performance of a sale, default by the purchaser in payment of the ordered purchase-money may lead to:",
+      "options": [
+        "Rescission of the contract",
+        "Automatic transfer of title to the purchaser",
+        "Criminal punishment",
+        "Automatic renewal"
+      ],
+      "answer": "Rescission of the contract",
+      "reference": "Specific Relief Act, 1877, S.35(c)"
+    },
+    {
+      "id": 254,
+      "topic": "Rescission - S.35",
+      "question": "Where a purchaser in wrongful possession under a rescinded contract has received rents and profits, the Court may order payment to:",
+      "options": [
+        "The vendor",
+        "The police",
+        "The Registrar",
+        "Any stranger"
+      ],
+      "answer": "The vendor",
+      "reference": "Specific Relief Act, 1877, S.35"
+    },
+    {
+      "id": 255,
+      "topic": "Rescission - S.36",
+      "question": "Rescission for mere mistake should not generally be adjudged where the other party cannot be restored to:",
+      "options": [
+        "Substantially the same position as if the contract had not been made",
+        "A better position",
+        "Any position chosen by the plaintiff",
+        "A position chosen by the defendant"
+      ],
+      "answer": "Substantially the same position as if the contract had not been made",
+      "reference": "Specific Relief Act, 1877, S.36"
+    },
+    {
+      "id": 256,
+      "topic": "Alternative Relief - S.37",
+      "question": "A plaintiff suing for specific performance may include in the same suit a claim for:",
+      "options": [
+        "Rescission",
+        "Criminal conviction",
+        "Imprisonment",
+        "Tax exemption"
+      ],
+      "answer": "Rescission",
+      "reference": "Specific Relief Act, 1877, S.37"
+    },
+    {
+      "id": 257,
+      "topic": "Compensation on Rescission - S.38",
+      "question": "On rescission of a contract, the Court may require the party receiving relief to make:",
+      "options": [
+        "Compensation as justice may require",
+        "A criminal confession",
+        "A new contract",
+        "A transfer to the Government"
+      ],
+      "answer": "Compensation as justice may require",
+      "reference": "Specific Relief Act, 1877, S.38"
+    },
+    {
+      "id": 258,
+      "topic": "Cancellation - S.39",
+      "question": "Cancellation may be sought when a written instrument is:",
+      "options": [
+        "Void or voidable against the plaintiff",
+        "Merely inconvenient",
+        "Fully valid and harmless",
+        "Already destroyed"
+      ],
+      "answer": "Void or voidable against the plaintiff",
+      "reference": "Specific Relief Act, 1877, S.39"
+    },
+    {
+      "id": 259,
+      "topic": "Cancellation - S.39",
+      "question": "The plaintiff must have reasonable apprehension that leaving the instrument outstanding may cause:",
+      "options": [
+        "Serious injury",
+        "Minor inconvenience",
+        "No injury",
+        "Automatic imprisonment"
+      ],
+      "answer": "Serious injury",
+      "reference": "Specific Relief Act, 1877, S.39"
+    },
+    {
+      "id": 260,
+      "topic": "Cancellation - S.39",
+      "question": "Where a registered instrument is cancelled, the Court must send a copy of the decree to:",
+      "options": [
+        "The officer in whose office the instrument was registered",
+        "The police station",
+        "The local tax office",
+        "The defendant's employer"
+      ],
+      "answer": "The officer in whose office the instrument was registered",
+      "reference": "Specific Relief Act, 1877, S.39"
+    },
+    {
+      "id": 261,
+      "topic": "Partial Cancellation - S.40",
+      "question": "If an instrument evidences different rights or obligations, the Court may:",
+      "options": [
+        "Cancel it in part and allow the remainder to stand",
+        "Always cancel the whole instrument",
+        "Never cancel it",
+        "Convert it into a decree for possession"
+      ],
+      "answer": "Cancel it in part and allow the remainder to stand",
+      "reference": "Specific Relief Act, 1877, S.40"
+    },
+    {
+      "id": 262,
+      "topic": "Compensation - S.41",
+      "question": "When cancellation is adjudged, the Court may require the party receiving relief to make:",
+      "options": [
+        "Compensation as justice may require",
+        "A criminal payment",
+        "A new contract",
+        "A Government deposit"
+      ],
+      "answer": "Compensation as justice may require",
+      "reference": "Specific Relief Act, 1877, S.41"
+    },
+    {
+      "id": 263,
+      "topic": "Declaratory Decree - S.42",
+      "question": "A declaratory suit may be brought by a person entitled to a legal character or right as to property where another person:",
+      "options": [
+        "Denies or is interested to deny that title",
+        "Agrees with the title",
+        "Has no connection with the matter",
+        "Has already transferred the property"
+      ],
+      "answer": "Denies or is interested to deny that title",
+      "reference": "Specific Relief Act, 1877, S.42"
+    },
+    {
+      "id": 264,
+      "topic": "Declaratory Decree - S.42",
+      "question": "A court cannot ordinarily grant a mere declaration where the plaintiff is able to seek:",
+      "options": [
+        "Further relief but omits to seek it",
+        "Court fees",
+        "Criminal punishment",
+        "Arbitration"
+      ],
+      "answer": "Further relief but omits to seek it",
+      "reference": "Specific Relief Act, 1877, S.42 proviso"
+    },
+    {
+      "id": 265,
+      "topic": "Declaratory Decree - S.43",
+      "question": "A declaration under section 42 binds:",
+      "options": [
+        "The parties and persons claiming through them",
+        "Every person in Bangladesh",
+        "Only witnesses",
+        "Only Government officers"
+      ],
+      "answer": "The parties and persons claiming through them",
+      "reference": "Specific Relief Act, 1877, S.43"
+    },
+    {
+      "id": 266,
+      "topic": "Receivers - S.44",
+      "question": "Appointment of a receiver under section 44 is governed by:",
+      "options": [
+        "The Code of Civil Procedure",
+        "The Penal Code",
+        "The Contract Act",
+        "The Evidence Act"
+      ],
+      "answer": "The Code of Civil Procedure",
+      "reference": "Specific Relief Act, 1877, S.44"
+    },
+    {
+      "id": 267,
+      "topic": "Preventive Relief - S.52",
+      "question": "Preventive relief is granted at the discretion of the Court by:",
+      "options": [
+        "Temporary or perpetual injunction",
+        "Cancellation only",
+        "Rescission only",
+        "Compensation only"
+      ],
+      "answer": "Temporary or perpetual injunction",
+      "reference": "Specific Relief Act, 1877, S.52"
+    },
+    {
+      "id": 268,
+      "topic": "Temporary Injunction - S.53",
+      "question": "A temporary injunction may continue until:",
+      "options": [
+        "A specified time or further order of the Court",
+        "The plaintiff requests cancellation",
+        "The defendant dies",
+        "The case is transferred"
+      ],
+      "answer": "A specified time or further order of the Court",
+      "reference": "Specific Relief Act, 1877, S.53"
+    },
+    {
+      "id": 269,
+      "topic": "Temporary Injunction - S.53",
+      "question": "Temporary injunctions may be granted:",
+      "options": [
+        "At any period of a suit",
+        "Only at final judgment",
+        "Only before filing the suit",
+        "Only after appeal"
+      ],
+      "answer": "At any period of a suit",
+      "reference": "Specific Relief Act, 1877, S.53"
+    },
+    {
+      "id": 270,
+      "topic": "Temporary Injunction - S.53",
+      "question": "Temporary injunctions are regulated by:",
+      "options": [
+        "The Code of Civil Procedure",
+        "The Penal Code",
+        "The Limitation Act",
+        "The Registration Act"
+      ],
+      "answer": "The Code of Civil Procedure",
+      "reference": "Specific Relief Act, 1877, S.53"
+    },
+    {
+      "id": 271,
+      "topic": "Perpetual Injunction - S.53",
+      "question": "A perpetual injunction can only be granted by:",
+      "options": [
+        "A decree made at the hearing and upon the merits of the suit",
+        "An interim administrative order",
+        "The police",
+        "The Registrar"
+      ],
+      "answer": "A decree made at the hearing and upon the merits of the suit",
+      "reference": "Specific Relief Act, 1877, S.53"
+    },
+    {
+      "id": 272,
+      "topic": "Perpetual Injunction - S.54",
+      "question": "A perpetual injunction may be granted to prevent breach of an obligation existing in favour of:",
+      "options": [
+        "The applicant",
+        "Any stranger",
+        "The Government only",
+        "The defendant only"
+      ],
+      "answer": "The applicant",
+      "reference": "Specific Relief Act, 1877, S.54"
+    },
+    {
+      "id": 273,
+      "topic": "Perpetual Injunction - S.54",
+      "question": "An obligation protected by perpetual injunction may arise:",
+      "options": [
+        "Expressly or by implication",
+        "Only expressly",
+        "Only by registration",
+        "Only by statute"
+      ],
+      "answer": "Expressly or by implication",
+      "reference": "Specific Relief Act, 1877, S.54"
+    },
+    {
+      "id": 274,
+      "topic": "Perpetual Injunction - S.54",
+      "question": "If the obligation arises from contract, the Court is guided by:",
+      "options": [
+        "Chapter II of the Specific Relief Act",
+        "Only the Penal Code",
+        "Only the Evidence Act",
+        "Only the Registration Act"
+      ],
+      "answer": "Chapter II of the Specific Relief Act",
+      "reference": "Specific Relief Act, 1877, S.54"
+    },
+    {
+      "id": 275,
+      "topic": "Perpetual Injunction - S.54",
+      "question": "A perpetual injunction may be granted where the defendant is trustee of the property for:",
+      "options": [
+        "The plaintiff",
+        "The defendant",
+        "A stranger",
+        "The Government only"
+      ],
+      "answer": "The plaintiff",
+      "reference": "Specific Relief Act, 1877, S.54(a)"
+    },
+    {
+      "id": 276,
+      "topic": "Perpetual Injunction - S.54",
+      "question": "A perpetual injunction may be granted where there is no standard for ascertaining:",
+      "options": [
+        "The actual damage caused or likely to be caused",
+        "The court fee",
+        "The plaintiff's age",
+        "The defendant's address"
+      ],
+      "answer": "The actual damage caused or likely to be caused",
+      "reference": "Specific Relief Act, 1877, S.54(b)"
+    },
+    {
+      "id": 277,
+      "topic": "Perpetual Injunction - S.54",
+      "question": "A perpetual injunction may be granted where pecuniary compensation:",
+      "options": [
+        "Would not afford adequate relief",
+        "Is always sufficient",
+        "Has already been paid",
+        "Is prohibited"
+      ],
+      "answer": "Would not afford adequate relief",
+      "reference": "Specific Relief Act, 1877, S.54(c)"
+    },
+    {
+      "id": 278,
+      "topic": "Perpetual Injunction - S.54",
+      "question": "A perpetual injunction may be granted where it is probable that pecuniary compensation:",
+      "options": [
+        "Cannot be obtained for the invasion",
+        "Will certainly be obtained",
+        "Has already been awarded",
+        "Is unnecessary"
+      ],
+      "answer": "Cannot be obtained for the invasion",
+      "reference": "Specific Relief Act, 1877, S.54(d)"
+    },
+    {
+      "id": 279,
+      "topic": "Perpetual Injunction - S.54",
+      "question": "An injunction may be granted where it is necessary to prevent:",
+      "options": [
+        "A multiplicity of judicial proceedings",
+        "Payment of court fees",
+        "Registration of property",
+        "Execution of every decree"
+      ],
+      "answer": "A multiplicity of judicial proceedings",
+      "reference": "Specific Relief Act, 1877, S.54(e)"
+    },
+    {
+      "id": 280,
+      "topic": "Perpetual Injunction - S.54",
+      "question": "For the purposes of section 54, a trademark is:",
+      "options": [
+        "Property",
+        "A debt",
+        "A contract only",
+        "A criminal proceeding"
+      ],
+      "answer": "Property",
+      "reference": "Specific Relief Act, 1877, S.54, Explanation"
+    },
+    {
+      "id": 281,
+      "topic": "Mandatory Injunction - S.55",
+      "question": "A mandatory injunction may be granted where it is necessary to compel:",
+      "options": [
+        "Performance of certain acts which the Court is capable of enforcing",
+        "Payment of every debt",
+        "Criminal punishment",
+        "Registration of every document"
+      ],
+      "answer": "Performance of certain acts which the Court is capable of enforcing",
+      "reference": "Specific Relief Act, 1877, S.55"
+    },
+    {
+      "id": 282,
+      "topic": "Mandatory Injunction - S.55",
+      "question": "A mandatory injunction may both prevent a breach and:",
+      "options": [
+        "Compel performance of requisite acts",
+        "Award imprisonment",
+        "Transfer title automatically",
+        "Cancel all contracts"
+      ],
+      "answer": "Compel performance of requisite acts",
+      "reference": "Specific Relief Act, 1877, S.55"
+    },
+    {
+      "id": 283,
+      "topic": "Mandatory Injunction - S.55",
+      "question": "If a building obstructs another person's acquired right to light, the Court may order:",
+      "options": [
+        "Removal of the obstructing portion",
+        "Sale of the entire property",
+        "Transfer of the land",
+        "Criminal imprisonment"
+      ],
+      "answer": "Removal of the obstructing portion",
+      "reference": "Specific Relief Act, 1877, S.55"
+    },
+    {
+      "id": 284,
+      "topic": "Mandatory Injunction - S.55",
+      "question": "If eaves project over another person's land, the Court may order:",
+      "options": [
+        "The projecting portion to be pulled down",
+        "The entire house to be demolished",
+        "The land to be transferred",
+        "The owner to be imprisoned"
+      ],
+      "answer": "The projecting portion to be pulled down",
+      "reference": "Specific Relief Act, 1877, S.55"
+    },
+    {
+      "id": 285,
+      "topic": "Mandatory Injunction - S.55",
+      "question": "Where confidential communications made by a patient to a medical adviser are threatened with improper publication, the Court may order:",
+      "options": [
+        "The written communications to be destroyed",
+        "The patient to surrender the communications",
+        "The doctor to publish them",
+        "The communications to be registered"
+      ],
+      "answer": "The written communications to be destroyed",
+      "reference": "Specific Relief Act, 1877, S.55"
+    },
+    {
+      "id": 286,
+      "topic": "Injunction Refused - S.56",
+      "question": "An injunction cannot ordinarily stay a judicial proceeding already pending at the institution of the suit seeking the injunction, unless necessary to prevent:",
+      "options": [
+        "A multiplicity of proceedings",
+        "Court fees",
+        "Delay in every case",
+        "A criminal conviction"
+      ],
+      "answer": "A multiplicity of proceedings",
+      "reference": "Specific Relief Act, 1877, S.56(a)"
+    },
+    {
+      "id": 287,
+      "topic": "Injunction Refused - S.56",
+      "question": "An injunction cannot be granted to stay proceedings in a Court:",
+      "options": [
+        "Not subordinate to the Court from which the injunction is sought",
+        "Subordinate to the Court",
+        "Having concurrent jurisdiction",
+        "Hearing the same matter"
+      ],
+      "answer": "Not subordinate to the Court from which the injunction is sought",
+      "reference": "Specific Relief Act, 1877, S.56(b)"
+    },
+    {
+      "id": 288,
+      "topic": "Injunction Refused - S.56",
+      "question": "An injunction cannot be granted to restrain persons from applying to:",
+      "options": [
+        "Any legislative body",
+        "A subordinate civil court",
+        "A private arbitrator",
+        "A trustee"
+      ],
+      "answer": "Any legislative body",
+      "reference": "Specific Relief Act, 1877, S.56(c)"
+    },
+    {
+      "id": 289,
+      "topic": "Injunction Refused - S.56",
+      "question": "An injunction cannot interfere with the public duties of:",
+      "options": [
+        "Any department of the Government",
+        "A private company",
+        "A tenant",
+        "A trustee"
+      ],
+      "answer": "Any department of the Government",
+      "reference": "Specific Relief Act, 1877, S.56(d)"
+    },
+    {
+      "id": 290,
+      "topic": "Injunction Refused - S.56",
+      "question": "An injunction cannot interfere with the sovereign acts of:",
+      "options": [
+        "A foreign Government",
+        "A private individual",
+        "A tenant",
+        "A trustee"
+      ],
+      "answer": "A foreign Government",
+      "reference": "Specific Relief Act, 1877, S.56(d)"
+    },
+    {
+      "id": 291,
+      "topic": "Injunction Refused - S.56",
+      "question": "An injunction cannot be granted to stay proceedings in:",
+      "options": [
+        "Any criminal matter",
+        "Any civil matter",
+        "Any property dispute",
+        "Any arbitration"
+      ],
+      "answer": "Any criminal matter",
+      "reference": "Specific Relief Act, 1877, S.56(e)"
+    },
+    {
+      "id": 292,
+      "topic": "Injunction Refused - S.56",
+      "question": "An injunction cannot be granted to prevent breach of a contract whose performance:",
+      "options": [
+        "Would not be specifically enforced",
+        "Would necessarily be specifically enforced",
+        "Has already occurred",
+        "Is registered"
+      ],
+      "answer": "Would not be specifically enforced",
+      "reference": "Specific Relief Act, 1877, S.56(f)"
+    },
+    {
+      "id": 293,
+      "topic": "Injunction Refused - S.56",
+      "question": "An injunction on the ground of nuisance cannot be granted where it is not reasonably clear that the act complained of:",
+      "options": [
+        "Will be a nuisance",
+        "Is criminal",
+        "Is contractual",
+        "Is registered"
+      ],
+      "answer": "Will be a nuisance",
+      "reference": "Specific Relief Act, 1877, S.56(g)"
+    },
+    {
+      "id": 294,
+      "topic": "Injunction Refused - S.56",
+      "question": "An injunction cannot be granted to prevent a continuing breach where the applicant has:",
+      "options": [
+        "Acquiesced in the breach",
+        "Objected promptly",
+        "Suffered loss",
+        "Filed suit immediately"
+      ],
+      "answer": "Acquiesced in the breach",
+      "reference": "Specific Relief Act, 1877, S.56(h)"
+    },
+    {
+      "id": 295,
+      "topic": "Injunction Refused - S.56",
+      "question": "An injunction cannot be granted where equally efficacious relief can certainly be obtained by:",
+      "options": [
+        "Any other usual mode of proceeding, except in cases of breach of trust",
+        "Criminal prosecution only",
+        "Private negotiation",
+        "Government notification"
+      ],
+      "answer": "Any other usual mode of proceeding, except in cases of breach of trust",
+      "reference": "Specific Relief Act, 1877, S.56(i)"
+    },
+    {
+      "id": 296,
+      "topic": "Injunction Refused - S.56",
+      "question": "An injunction cannot generally be granted where the conduct of the applicant or his agents has been such as to:",
+      "options": [
+        "Disentitle him to the assistance of the Court",
+        "Increase his damages",
+        "Establish title",
+        "Create a contract"
+      ],
+      "answer": "Disentitle him to the assistance of the Court",
+      "reference": "Specific Relief Act, 1877, S.56(j)"
+    },
+    {
+      "id": 297,
+      "topic": "Injunction Refused - S.56",
+      "question": "An injunction cannot be granted where the applicant has:",
+      "options": [
+        "No personal interest in the matter",
+        "A legal interest",
+        "A beneficial interest",
+        "A proprietary right"
+      ],
+      "answer": "No personal interest in the matter",
+      "reference": "Specific Relief Act, 1877, S.56(k)"
+    },
+    {
+      "id": 298,
+      "topic": "Negative Agreement - S.57",
+      "question": "Where a contract contains an affirmative agreement coupled with a negative agreement, the inability to specifically enforce the affirmative agreement:",
+      "options": [
+        "Does not prevent an injunction enforcing the negative agreement",
+        "Always prevents any injunction",
+        "Automatically rescinds the contract",
+        "Makes the contract criminal"
+      ],
+      "answer": "Does not prevent an injunction enforcing the negative agreement",
+      "reference": "Specific Relief Act, 1877, S.57"
+    },
+    {
+      "id": 299,
+      "topic": "Negative Agreement - S.57",
+      "question": "A performer agrees to perform at one theatre for twelve months and not perform elsewhere. Although specific performance of the positive obligation may be unavailable, the other party may obtain:",
+      "options": [
+        "An injunction restraining performance elsewhere",
+        "An order compelling the performer to perform",
+        "Automatic cancellation",
+        "Criminal imprisonment"
+      ],
+      "answer": "An injunction restraining performance elsewhere",
+      "reference": "Specific Relief Act, 1877, S.57"
+    },
+    {
+      "id": 300,
+      "topic": "Negative Agreement - S.57",
+      "question": "An applicant seeking an injunction under section 57 must have:",
+      "options": [
+        "Performed the contract so far as it is binding on him",
+        "Refused to perform his own obligations",
+        "Abandoned the contract",
+        "Obtained a criminal decree"
+      ],
+      "answer": "Performed the contract so far as it is binding on him",
+      "reference": "Specific Relief Act, 1877, S.57"
+    }
+  ]
+}
